@@ -1,0 +1,14 @@
+Package: PNF2022
+Encoding: UTF-8
+Imports: 
+    clipr,
+    dplyr,
+    gt,
+    here,
+    magrittr,
+    readr,
+    readxl,
+    textreadr,
+    zip
+Depends: 
+    tidyverse
