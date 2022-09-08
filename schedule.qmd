@@ -1,0 +1,13 @@
+---
+title: "Schedule of program"
+---
+
+```{r setup, include=FALSE}
+library(tidyverse)
+library(here)
+library(gt)
+
+read_csv(here("data-raw/schedule.csv"), show_col_types = FALSE) %>%
+    select(date, session, start_time, end_time, full_name, title) %>% 
+    mutate(times = glue())
+```
