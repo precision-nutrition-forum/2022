@@ -1,0 +1,110 @@
+
+library(textreadr)
+library(readxl)
+library(tidyverse)
+library(here)
+library(fs)
+
+# Processing files from the PNF.zip archive. This is not saved in the Git repo.
+zip::unzip(here("data-raw/PNF.zip"), exdir = here("data-raw"))
+
+
+# Proces and move images --------------------------------------------------
+
+profile_pics <- dir_ls(here("data-raw"), regexp = ".*\\.(png|jpe?g|jfif)")
+
+# Have to first rename some of their characters.
+renamed_pics <- profile_pics %>%
+    path_file() %>%
+    str_to_lower() %>%
+    str_replace_all(" +", "-")
+
+file_move(
+    profile_pics,
+    path(here("images", "raw", renamed_pics))
+)
+# Rename after moving them.
+
+
+# Extract scope and program -----------------------------------------------
+
+# Paste into the index.qmd and about.qmd files
+read_docx(here("data-raw/Scope.docx")) %>%
+    clipr::write_clip()
+
+read_docx(here("data-raw/program.docx"))
+
+# Extract and tidy schedule -----------------------------------------------
+
+# Need to do some minor manual cleaning, like deleting columns
+read_excel(here("data-raw/talks-titles-schedule.xlsx")) %>%
+    write_csv(here("data-raw/schedule.csv"))
+
+schedule <- read_csv(here("data-raw/schedule.csv"))
+
+# Use this to form a starting point to fix the column names
+# Copy and paste below this
+schedule %>%
+    names() %>%
+    as_tibble() %>%
+    glue::glue_data('"{snakecase::to_snake_case(value)}", "{value}",') %>%
+    prepend(c("tibble::tribble(", "~new_name,", "~old_name,")) %>%
+    append(")") %>%
+    clipr::write_clip()
+
+# Pasted from above.
+column_renaming <- tibble::tribble(
+    ~new_name, ~old_name,
+    "session", "Session",
+    "date", "date",
+    "time", "time",
+    "full_name", "Full name (as it should appear in the program)",
+    "title", "Title of my presentation",
+    "agree_to_publish_talk_and_info", "I agree that the provided title of my talk and personal information are disseminated publicly to advertise the THE FIRST GOTHENBURG PRECISION NUTRITION FORUM.",
+    "summary_research_interests", "Short summary of my major research interests  for the public program (just a few sentences).",
+    "agree_to_photo_in_program", "Do you agree that a portrait photo is included with your scientific interests summary in the program?",
+    "agree_to_livestream_talk", "Given the speaker consent, we want to livestream the scientific presentations. Do you agree that your scientific presentation in the THE FIRST GOTHENBURG PRECISION NUTRITION FORUM is livestreamed on the internet?",
+    "agree_to_cc_license_talk", "In the spirit of open science, we want to record and publish the scientific presentation and make them publicly accessible under the creative commons Attribution-NonCommercial-ShareAlike CC (BY-NC-SA) license . This license lets others remix, adapt, and build upon your work non-commercially, as long as they credit you and license their new creations under the identical terms. In other words, you allow us to upload the video of your presentation to the conference website and make it findable, accessible, and citable. Do yo agree?",
+    "primary_affiliation", "Primary affiliation",
+    "secondary_affiliation", "Secondary affiliation",
+    "tertiary_affiliation", "Tertiary affiliation",
+)
+
+break_times <- tribble(
+    ~session, ~date, ~start_time, ~end_time,
+    "Break", "2022-09-12", "15:45", "16:00",
+    "Poster and networking session", "2022-09-12", "18:00", "20:00",
+    "Poster and networking session", "2022-09-12", "18:00", "20:00",
+
+)
+
+schedule %>%
+    rename(deframe(column_renaming)) %>%
+    mutate(across(where(is.character), str_remove_all, pattern = "\n")) %>%
+    mutate(
+        date = lubridate::ymd(date),
+        full_name = full_name %>%
+            str_remove_all("Prof\\.|MD, MPH|Dr\\.") %>%
+            str_to_title() %>%
+            str_trim()
+    ) %>%
+    separate(time, into = c("start_time", "end_time"), sep = "-") %>%
+    write_csv(here("data-raw/schedule.csv"))
+# Manually edit after this.
+# Include breaks and poster session times from the `program.docx` file.
+
+# Select who hasn't explicitly consented.
+read_csv(here("data-raw/schedule.csv"), show_col_types = FALSE) %>%
+    select(full_name, starts_with("agree")) %>%
+    pivot_longer(cols = -full_name) %>%
+    filter(is.na(value)) %>%
+    pull(full_name) %>%
+    unique()
+
+
+# Save to data ------------------------------------------------------------
+
+read_csv(here("data-raw/schedule.csv"), show_col_types = FALSE) %>%
+
+    names()
+
