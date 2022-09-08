@@ -8,7 +8,6 @@ library(fs)
 # Processing files from the PNF.zip archive. This is not saved in the Git repo.
 zip::unzip(here("data-raw/PNF.zip"), exdir = here("data-raw"))
 
-
 # Proces and move images --------------------------------------------------
 
 profile_pics <- dir_ls(here("data-raw"), regexp = ".*\\.(png|jpe?g|jfif)")
@@ -32,19 +31,19 @@ file_move(
 read_docx(here("data-raw/Scope.docx")) %>%
     clipr::write_clip()
 
-read_docx(here("data-raw/program.docx"))
+file_delete(here("data-raw/Scope.docx"))
 
 # Extract and tidy schedule -----------------------------------------------
 
 # Need to do some minor manual cleaning, like deleting columns
 read_excel(here("data-raw/talks-titles-schedule.xlsx")) %>%
-    write_csv(here("data-raw/schedule.csv"))
+    write_csv(here("data-raw/presentations.csv"))
 
-schedule <- read_csv(here("data-raw/schedule.csv"))
+presentations <- read_csv(here("data-raw/presentations.csv"))
 
 # Use this to form a starting point to fix the column names
 # Copy and paste below this
-schedule %>%
+presentations %>%
     names() %>%
     as_tibble() %>%
     glue::glue_data('"{snakecase::to_snake_case(value)}", "{value}",') %>%
@@ -70,41 +69,46 @@ column_renaming <- tibble::tribble(
     "tertiary_affiliation", "Tertiary affiliation",
 )
 
-break_times <- tribble(
-    ~session, ~date, ~start_time, ~end_time,
-    "Break", "2022-09-12", "15:45", "16:00",
-    "Poster and networking session", "2022-09-12", "18:00", "20:00",
-    "Poster and networking session", "2022-09-12", "18:00", "20:00",
-
-)
-
-schedule %>%
+presentations %>%
     rename(deframe(column_renaming)) %>%
     mutate(across(where(is.character), str_remove_all, pattern = "\n")) %>%
     mutate(
         date = lubridate::ymd(date),
         full_name = full_name %>%
-            str_remove_all("Prof\\.|MD, MPH|Dr\\.") %>%
+            str_remove_all("Prof\\.|, MD, MPH|Dr\\.| Ph\\.[Dd]\\.") %>%
             str_to_title() %>%
             str_trim()
     ) %>%
     separate(time, into = c("start_time", "end_time"), sep = "-") %>%
-    write_csv(here("data-raw/schedule.csv"))
+    write_csv(here("data-raw/presentations.csv"))
 # Manually edit after this.
-# Include breaks and poster session times from the `program.docx` file.
 
 # Select who hasn't explicitly consented.
-read_csv(here("data-raw/schedule.csv"), show_col_types = FALSE) %>%
+read_csv(here("data-raw/presentations.csv"), show_col_types = FALSE) %>%
     select(full_name, starts_with("agree")) %>%
     pivot_longer(cols = -full_name) %>%
     filter(is.na(value)) %>%
     pull(full_name) %>%
     unique()
 
+# Create schedule ---------------------------------------------------------
 
-# Save to data ------------------------------------------------------------
+# To get the breaks and other times.
+nonspeaker_sessions <- read_docx(here("data-raw/program.docx")) %>%
+    str_subset("[Bb]reak|Poster|Lunch") %>%
+    str_split(" ", n = 2) %>%
+    map_dfr(~as_tibble(matrix(.x, ncol = 2),
+                       .name_repair = ~c("time", "session"))) %>%
+    separate(time, into = c("start_time", "end_time"), sep = "-") %>%
+    mutate(date = paste0("2022-09-", rep(c("12", "13"), each = 2))) %>%
+    add_row(session = "Closing remarks", date = "2022-09-13", start_time = "17:00", end_time = "")
 
-read_csv(here("data-raw/schedule.csv"), show_col_types = FALSE) %>%
+dir_create(here("data"))
 
-    names()
+read_csv(here("data-raw/presentations.csv"), col_types = rep("c", 14), guess_max = 0) %>%
+    bind_rows(nonspeaker_sessions) %>%
+    select(session, date, start_time, end_time, full_name, title) %>%
+    arrange(date, lubridate::hm(start_time)) %>%
+    mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
+    write_csv(here("data/schedule.csv"))
 
