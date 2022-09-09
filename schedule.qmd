@@ -2,12 +2,56 @@
 title: "Schedule of program"
 ---
 
-```{r setup, include=FALSE}
+```{r setup, include=FALSE, results='markup'}
 library(tidyverse)
+library(lubridate)
+library(glue)
 library(here)
 library(gt)
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+```
 
-read_csv(here("data-raw/schedule.csv"), show_col_types = FALSE) %>%
+```{r schedule-prep}
+schedule <- read_csv(here("data/schedule.csv"), na = "", guess_max = 0, col_types = "c") %>%
     select(date, session, start_time, end_time, full_name, title) %>% 
-    mutate(times = glue())
+    mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
+    mutate(end_time = if_else(end_time == "", "", str_c("-", end_time))) %>% 
+    mutate(times = glue("{start_time}{end_time}"),
+           talk = if_else(full_name == "", "", as.character(glue("*{title}*, {full_name}"))),
+           days = stamp_date("March 1", quiet = TRUE)(ymd(date))) %>% 
+    rename_with(str_to_sentence) 
+
+dates <- schedule %>% 
+    pull(Days) %>% 
+    unique()
+    
+create_table <- function(data) {
+    data %>%
+        select(Session, Times, Talk) %>%
+        gt(groupname_col = "Session") %>%
+        tab_style(style = list(cell_text(weight = "bold")),
+                  locations = cells_row_groups()) %>%
+        tab_style(style = list(cell_text(weight = "bold")),
+                  locations = cells_column_labels()) %>%
+        opt_table_lines("none") %>%
+        opt_table_outline("none") %>% 
+        fmt_markdown(columns = everything()) %>% 
+        tab_options(column_labels.hidden = TRUE)
+}
+```
+
+## Day 1: `r dates[1]`
+
+```{r}
+schedule %>% 
+    filter(Days == dates[1]) %>% 
+    create_table()
+```
+
+## Day 2: `r dates[2]`
+
+```{r}
+schedule %>% 
+    filter(Days == dates[2]) %>% 
+    create_table()
 ```
