@@ -103,12 +103,38 @@ nonspeaker_sessions <- read_docx(here("data-raw/program.docx")) %>%
     mutate(date = paste0("2022-09-", rep(c("12", "13"), each = 2))) %>%
     add_row(session = "Closing remarks", date = "2022-09-13", start_time = "17:00", end_time = "")
 
+# file_delete(here("data-raw/program.docx"))
 dir_create(here("data"))
 
-read_csv(here("data-raw/presentations.csv"), col_types = rep("c", 14), guess_max = 0) %>%
+read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
+    mutate(speaker_id = full_name %>%
+               str_to_lower() %>%
+               str_replace_all(" ", "-") %>%
+               str_remove_all("\\.")) %>%
     bind_rows(nonspeaker_sessions) %>%
     select(session, date, start_time, end_time, full_name, title) %>%
     arrange(date, lubridate::hm(start_time)) %>%
     mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
     write_csv(here("data/schedule.csv"))
 
+# Create speakers ---------------------------------------------------------
+
+read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
+    select(full_name, summary_research_interests, ends_with("affiliation")) %>%
+    mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
+    rowwise(full_name, summary_research_interests) %>%
+    summarize(
+        affiliations = str_flatten(c_across(ends_with("affiliation")), "; ") %>%
+            str_remove_all("; (; )+") %>%
+            str_remove("; +?$"),
+        speaker_id = full_name %>%
+            str_to_lower() %>%
+            str_replace_all(" ", "-") %>%
+            str_remove_all("\\.") %>%
+            str_replace_all("ä", "a") %>%
+            str_replace_all("ö", "o") %>%
+            str_replace_all("ë", "e") %>%
+            str_replace_all("é", "e")
+        ) %>%
+    relocate(speaker_id, everything()) %>%
+    write_csv(here("data/speakers.csv"))
