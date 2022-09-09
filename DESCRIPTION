@@ -3,6 +3,7 @@ Encoding: UTF-8
 Imports: 
     clipr,
     dplyr,
+    glue,
     gt,
     here,
     magrittr,
