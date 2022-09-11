@@ -2,10 +2,11 @@
 title: "About"
 ---
 
+## Organizers
+
 -   Hosted at Chalmers University of Technology, Gothenburg, Sweden
 -   Chalmers scientific organization: Clemens Wittenbecher & Rikard
     Landberg
 -   External scientific organization committee members: Marta
     Guasch-Ferré, Jordi Merino
 -   Head of administrative organization: Mia Gartner
-
