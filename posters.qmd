@@ -1,3 +1,12 @@
 ---
 title: "Poster presentations"
+listing:
+  contents: posters
+  type: table
+  sort: "author"
+  table-hover: true
+  table-striped: true
+  fields: 
+    - "author"
+    - "title"
 ---
