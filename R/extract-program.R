@@ -4,11 +4,12 @@ library(readxl)
 library(tidyverse)
 library(here)
 library(fs)
+library(jsonlite)
 
 # Processing files from the PNF.zip archive. This is not saved in the Git repo.
 zip::unzip(here("data-raw/PNF.zip"), exdir = here("data-raw"))
 
-# Proces and move images --------------------------------------------------
+# Process and move images -------------------------------------------------
 
 profile_pics <- dir_ls(here("data-raw"), regexp = ".*\\.(png|jpe?g|jfif)")
 
@@ -89,7 +90,8 @@ read_csv(here("data-raw/presentations.csv"), show_col_types = FALSE) %>%
     pivot_longer(cols = -full_name) %>%
     filter(is.na(value)) %>%
     pull(full_name) %>%
-    unique()
+    unique() %>%
+    cat(sep = ", ")
 
 # Create schedule ---------------------------------------------------------
 
@@ -138,3 +140,44 @@ read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
         ) %>%
     relocate(speaker_id, everything()) %>%
     write_csv(here("data/speakers.csv"))
+
+# Create poster presentation list -----------------------------------------
+
+# Had to do some minor manual edits in Institution column.
+read_excel(here("data-raw/poster-presenters-titles-abstracts.xlsx"),
+           skip = 1) %>%
+    rename_with(snakecase::to_snake_case) %>%
+    rename_with(~ str_remove(., "submitter_(.*_name_|email_|company_)") %>%
+                    str_remove("abstract_")) %>%
+    rename(presentation_type = presentation_preference_name,
+           affiliation = organisation_institute) %>%
+    mutate(
+        body = body %>%
+            str_remove("^<[Pp]>") %>%
+            str_remove("<\\|[Pp]>$") %>%
+            str_remove_all("<\\|?span>") %>%
+            str_remove_all("<\\|?(B|strong)>") %>%
+            str_replace_all('<(\\|?[Pp]|br \\||p style=.*\\")>', "\n") %>%
+            str_replace_all("<\\|?sup>", "^") %>%
+            str_replace_all("\\|", "/") %>%
+            str_replace_all("(Background|Introduction|Methods?|Results|Conclusions)[.:]?", "\n\n**\\1:**\n\n") %>%
+            str_replace_all("<\\|?I>", "*"),
+        full_name = str_c(first_name, family_name, sep = " "),
+        author_id = full_name %>%
+            str_replace_all("ö", "o") %>%
+            str_to_lower() %>%
+            str_replace_all(" ", "-")
+        ) %>%
+    select(author_id, full_name, title, body, presentation_type, affiliation) %>%
+    # Use JSON because of the abstract body.
+    write_json(here("data/poster-presentations.json"),
+               pretty = TRUE)
+
+# This is to find people with incomplete or missing abstracts.
+read_json(here("data/poster-presentations.json")) %>%
+    bind_rows() %>%
+    filter(nchar(body) < 1000) %>%
+    pull(full_name) %>%
+    str_c(collapse = ", ") %>%
+    clipr::write_clip()
+
