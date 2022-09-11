@@ -1,22 +1,43 @@
 project:
   type: website
+  output-dir: docs
+  execute-dir: project
+  render:
+    - "*.md"
+    - "*.qmd"
+    - "*.Rmd"
+    - "!data-raw/abstract-index-template.md"
+  post-render:
+    - touch docs/.nojekyll
 
 website:
-  title: "PNF 2022"
-  navbar:
-    left:
-      - href: index.qmd
-        text: Home
-    right:
-      - about.qmd
-      - text: "Program"
-        menu:
-        - schedule.qmd
-        - speakers.qmd
+    title: "PNF 2022"
+    site-url: "https://precision-nutrition-forum.github.io/2022/"
+    repo-url: "https://github.com/precision-nutrition-forum/2022"
+    repo-branch: main
+    repo-actions: [edit, issue, source]
+    search:
+        location: navbar
+        type: overlay
+    navbar:
+        left:
+            - href: index.qmd
+              text: Home
+        right:
+            - about.qmd
+            - text: "Program"
+              menu:
+                - schedule.qmd
+                - speakers.qmd
+                - posters.qmd
+    page-footer:
+        center:
+            - text: "License: CC BY-NC-SA 4.0 {{< fa brands creative-commons >}} {{< fa brands creative-commons-by >}} {{< fa brands creative-commons-nc >}} {{< fa brands creative-commons-sa >}}"
+              href: LICENSE.md
 
 format:
   html:
-    theme: cosmo
+    theme: journal
     css: styles.css
     toc: true
 
