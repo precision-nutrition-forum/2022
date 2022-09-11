@@ -21,4 +21,3 @@ read_csv(here("data/speakers.csv"), col_types = "c") %>%
     glue_data(str_flatten(glue_string, "\n\n")) %>% 
     cat(sep = "\n\n")
 ```
-

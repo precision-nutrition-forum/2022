@@ -114,7 +114,7 @@ read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
                str_replace_all(" ", "-") %>%
                str_remove_all("\\.")) %>%
     bind_rows(nonspeaker_sessions) %>%
-    select(session, date, start_time, end_time, full_name, title) %>%
+    select(speaker_id, session, date, start_time, end_time, full_name, title) %>%
     arrange(date, lubridate::hm(start_time)) %>%
     mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
     write_csv(here("data/schedule.csv"))
