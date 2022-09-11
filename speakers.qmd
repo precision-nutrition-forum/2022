@@ -1,5 +1,7 @@
 ---
 title: "Invited speakers"
+execute:
+    freeze: true
 ---
 
 ```{r, echo=FALSE, warning=FALSE, message=FALSE, results='asis'}
@@ -19,3 +21,4 @@ read_csv(here("data/speakers.csv"), col_types = "c") %>%
     glue_data(str_flatten(glue_string, "\n\n")) %>% 
     cat(sep = "\n\n")
 ```
+
