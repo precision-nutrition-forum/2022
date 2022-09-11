@@ -6,10 +6,14 @@ Imports:
     glue,
     gt,
     here,
+    jsonlite,
+    magick,
     magrittr,
     readr,
     readxl,
+    snakecase,
     textreadr,
+    whisker,
     zip
 Depends: 
     tidyverse
