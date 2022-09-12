@@ -47,7 +47,9 @@ differences in food preferences may influence employees’ responses to
 workplace healthy eating efforts, such as cafeteria traffic light
 labels.
 
-Keywords: food choice behavior, genetics of diet, polygenic scores,
-diet, food purchases
+**Keywords:**
+
+food choice behavior, genetics of diet, polygenic scores, diet, food
+purchases
 
 Presentation format: *Flash presentation & Poster*

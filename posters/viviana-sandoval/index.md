@@ -41,6 +41,9 @@ analyses, fecal samples will be collected for microbiota analyses and
 plasma for untargeted metabolomics analyses. This study seeks to
 generate new knowledge in precision nutrition to understand better why
 some people respond better to omega-3 fatty acids than others.
-Keywords:Personalized-nutrition/postprandial-response/triglycerides/lipid-metabolism.
+
+**Keywords:**
+
+Personalized-nutrition/postprandial-response/triglycerides/lipid-metabolism.
 
 Presentation format: *Poster Only*

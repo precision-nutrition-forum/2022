@@ -51,6 +51,8 @@ cardiovascular disease. Thanks to metabolomics is possible to increase
 the knowledge of disease progression and provides approaches for
 therapy.
 
-Keywords: metabolomics; diabetes; habitual diet
+**Keywords:**
+
+metabolomics; diabetes; habitual diet
 
 Presentation format: *Flash presentation & Poster*

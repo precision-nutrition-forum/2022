@@ -41,7 +41,7 @@ responses were comparable: iAUC 213 (±112) vs. 208 (±96) mmol/L, p=0.96.
 Hunger was higher in the evening than in the morning (p&lt;0.0001) but
 this difference was not associated with the chronotype (p=0.7). 
 
-Conclusion:
+**Conclusion:**
 
 While glucose homeostasis deteriorated in earlier chronotypes over the
 day, later chronotypes showed similar glucose responses to a high GI
@@ -51,7 +51,9 @@ adversely affected also early in the morning following a high GI meal
 against the inner clock. The circadian rhythm of hunger seems to be
 independent of the chronotype.
 
-Keywords: chronotype, glucose homeostasis, glycaemic index circadian
-misalignment, hunger
+**Keywords:**
+
+chronotype, glucose homeostasis, glycaemic index circadian misalignment,
+hunger
 
 Presentation format: *Poster Only*

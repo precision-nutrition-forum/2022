@@ -52,10 +52,14 @@ plasmalogen were the top positive metabolites, and alanine,
 fructose-glucose-galactose, and C36:4 phosphatidylethanolamine
 plasmalogen the top negative metabolites. 
 
-Conclusion: We identified unique metabolomic signatures, which included
-several plasma lipids and amino acids, associated with MetS incidence
-and reversion.
+**Conclusion:**
 
-Keywords: Metabolomics, Metabolic Syndrome
+We identified unique metabolomic signatures, which included several
+plasma lipids and amino acids, associated with MetS incidence and
+reversion.
+
+**Keywords:**
+
+Metabolomics, Metabolic Syndrome
 
 Presentation format: *Flash presentation & Poster*

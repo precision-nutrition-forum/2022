@@ -39,7 +39,7 @@ with a waist circumference &gt; 102 cm (male) or &gt; 88 cm (females)
 and additional ≥ 2 metabolic syndrome traits, completed the
 intervention.
 
-Result
+**Result:**
 
 Postprandial insulin concentrations were higher after high-GI versus
 low-GI test meals at baseline (*p&lt;/I&gt; = 0.004), but not
@@ -50,7 +50,7 @@ concentrations decreased in both groups post-intervention. Indices of
 24-h glycemic variability after the intervention were reduced in the
 low-GI group compared to baseline and the high-GI group.
 
-Conclusion
+**Conclusion:**
 
 These findings suggest that low-GI foods may be an important part of a
 MED-HEP for postprandial and daily glucose control in people at risk for
@@ -58,8 +58,10 @@ type 2 diabetes.
 
  
 
-Keywords: Glycemic index, Mediterranean diet, Type 2 diabetes,
-postprandial glucose 
+**Keywords:**
+
+Glycemic index, Mediterranean diet, Type 2 diabetes, postprandial
+glucose 
 
  
 

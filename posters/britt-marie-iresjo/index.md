@@ -52,7 +52,9 @@ analyses is thus a suitable method to further study underlaying
 mechanisms, such as activation of protein translation or glucose
 metabolism, in response to short time nutrition interventions.
 
-Keywords: pre-operative nutrition, transcriptomics, skeletal muscle,
-protein metabolism
+**Keywords:**
+
+pre-operative nutrition, transcriptomics, skeletal muscle, protein
+metabolism
 
 Presentation format: *Poster Only*

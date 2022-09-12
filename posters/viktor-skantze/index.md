@@ -3,7 +3,7 @@ title: "Identifying metabotypes from tensor data"
 author: 
     - name: "Viktor Skantze"
       affiliations: 
-        - name: "Chalmers University of technology"
+        - name: "Chalmers University of Technology"
 date: "2022-09-12"
 ---
 
