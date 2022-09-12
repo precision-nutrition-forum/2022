@@ -1,5 +1,5 @@
 ---
-title: "Schedule of program"
+title: "Schedule"
 ---
 
 ```{r setup, include=FALSE, results='markup'}
