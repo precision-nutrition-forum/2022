@@ -1,5 +1,7 @@
 ---
 title: "Schedule"
+execute:
+    freeze: auto
 ---
 
 ```{r setup, include=FALSE, results='markup'}
