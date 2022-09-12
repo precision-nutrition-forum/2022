@@ -37,8 +37,9 @@ website:
 
 format:
   html:
-    theme: litera
-    css: theme.scss
+    theme:
+        - litera
+        - theme.scss
     toc: true
 
 editor: visual
