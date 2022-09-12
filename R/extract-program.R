@@ -102,8 +102,32 @@ nonspeaker_sessions <- read_docx(here("data-raw/program.docx")) %>%
     map_dfr(~as_tibble(matrix(.x, ncol = 2),
                        .name_repair = ~c("time", "session"))) %>%
     separate(time, into = c("start_time", "end_time"), sep = "-") %>%
-    mutate(date = paste0("2022-09-", rep(c("12", "13"), each = 2))) %>%
-    add_row(session = "Closing remarks", date = "2022-09-13", start_time = "17:00", end_time = "")
+    mutate(
+        date = paste0("2022-09-", rep(c("12", "13"), each = 2)),
+        session = session %>%
+            str_replace("^Coffee.*", "Break") %>%
+            str_replace("^Poster", "Posters") %>%
+            str_remove("session"),
+        title = case_when(
+            str_detect(session, "Break") ~ "Coffee and snack break.",
+            str_detect(session, "Poster") ~ "Poster presentation flash talks, poster browsing, and networking.",
+            str_detect(session, "Lunch") ~ "Lunch break."
+        )
+    ) %>%
+    add_row(
+        session = "Opening remarks",
+        date = "2022-09-12",
+        start_time = "13:30",
+        end_time = "13:45",
+        title = "Opening remarks for conference by Rikard Landberg"
+    ) %>%
+    add_row(
+        session = "Closing remarks",
+        date = "2022-09-13",
+        start_time = "17:00",
+        end_time = "17:15",
+        title = "Closing remarks by Rikard Landberg"
+    )
 
 # file_delete(here("data-raw/program.docx"))
 dir_create(here("data"))
