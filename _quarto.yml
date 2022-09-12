@@ -37,8 +37,8 @@ website:
 
 format:
   html:
-    theme: journal
-    css: styles.css
+    theme: litera
+    css: theme.scss
     toc: true
 
 editor: visual
