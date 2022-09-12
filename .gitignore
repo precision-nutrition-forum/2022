@@ -4,3 +4,6 @@
 .Ruserdata
 
 /.quarto/
+data-raw/*.docx
+data-raw/*.xlsx
+*.swp
