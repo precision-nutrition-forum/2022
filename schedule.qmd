@@ -35,12 +35,13 @@ create_table <- function(data) {
                   locations = cells_column_labels()) %>%
         opt_table_lines("none") %>%
         opt_table_outline("none") %>% 
+        opt_row_striping() %>% 
         fmt_markdown(columns = everything()) %>% 
         tab_options(column_labels.hidden = TRUE)
 }
 ```
 
-## Day 1: `r dates[1]`
+## `r dates[1]`
 
 ```{r}
 schedule %>% 
@@ -48,7 +49,7 @@ schedule %>%
     create_table()
 ```
 
-## Day 2: `r dates[2]`
+## `r dates[2]`
 
 ```{r}
 schedule %>% 
