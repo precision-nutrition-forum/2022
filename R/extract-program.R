@@ -151,6 +151,11 @@ read_excel(here("data-raw/poster-presenters-titles-abstracts.xlsx"),
                     str_remove("abstract_")) %>%
     rename(presentation_type = presentation_preference_name,
            affiliation = organisation_institute) %>%
+    mutate(affiliation = affiliation %>%
+               str_replace("NutritionUniversity of Oslo - ", "Nutrition, University of Oslo; ") %>%
+               str_replace("University of technology", "University of Technology") %>%
+               str_replace("University of Gothenburg\\|Dep of Surgery", "Department of Surgery, University of Gothenburg")
+           ) %>%
     mutate(
         body = body %>%
             str_remove("^<[Pp]>") %>%
@@ -160,7 +165,7 @@ read_excel(here("data-raw/poster-presenters-titles-abstracts.xlsx"),
             str_replace_all('<(\\|?[Pp]|br \\||p style=.*\\")>', "\n") %>%
             str_replace_all("<\\|?sup>", "^") %>%
             str_replace_all("\\|", "/") %>%
-            str_replace_all("(Background|Introduction|Methods?|Results|Conclusions)[.:]?", "\n\n**\\1:**\n\n") %>%
+            str_replace_all("(Background|Introduction|Methods?|Results?|Conclusions?|Keywords?)[.:]?", "\n\n**\\1:**\n\n") %>%
             str_replace_all("<\\|?I>", "*"),
         full_name = str_c(first_name, family_name, sep = " "),
         author_id = full_name %>%
