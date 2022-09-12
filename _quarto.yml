@@ -21,8 +21,9 @@ website:
         type: overlay
     navbar:
         left:
-            - href: index.qmd
-              text: Home
+            - icon: "house-door"
+              href: "index.qmd"
+              text: " "
         right:
             - about.qmd
             - text: "Program"
