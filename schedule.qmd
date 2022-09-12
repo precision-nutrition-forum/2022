@@ -18,7 +18,7 @@ schedule <- read_csv(here("data/schedule.csv"), na = "", guess_max = 0, col_type
     mutate(end_time = if_else(end_time == "", "", str_c("-", end_time))) %>% 
     mutate(times = glue("{start_time}{end_time}"),
            talk = if_else(full_name == "", "", as.character(glue("*{title}*, [{full_name}](speakers.qmd#{speaker_id})"))),
-           days = stamp_date("March 1", quiet = TRUE)(ymd(date))) %>% 
+           days = str_to_sentence(format(as_date(date), format = "%B, %d"))) %>% 
     rename_with(str_to_sentence) 
 
 dates <- schedule %>% 
