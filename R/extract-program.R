@@ -109,10 +109,16 @@ nonspeaker_sessions <- read_docx(here("data-raw/program.docx")) %>%
 dir_create(here("data"))
 
 read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
-    mutate(speaker_id = full_name %>%
-               str_to_lower() %>%
-               str_replace_all(" ", "-") %>%
-               str_remove_all("\\.")) %>%
+    mutate(
+        speaker_id = full_name %>%
+            str_to_lower() %>%
+            str_replace_all(" ", "-") %>%
+            str_remove_all("\\.") %>%
+            str_replace_all("ä", "a") %>%
+            str_replace_all("ö", "o") %>%
+            str_replace_all("ë", "e") %>%
+            str_replace_all("é", "e")
+        ) %>%
     bind_rows(nonspeaker_sessions) %>%
     select(speaker_id, session, date, start_time, end_time, full_name, title) %>%
     arrange(date, lubridate::hm(start_time)) %>%
@@ -125,19 +131,15 @@ read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
     select(full_name, summary_research_interests, ends_with("affiliation")) %>%
     mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
     rowwise(full_name, summary_research_interests) %>%
-    summarize(
-        affiliations = str_flatten(c_across(ends_with("affiliation")), "; ") %>%
-            str_remove_all("; (; )+") %>%
-            str_remove("; +?$"),
-        speaker_id = full_name %>%
-            str_to_lower() %>%
-            str_replace_all(" ", "-") %>%
-            str_remove_all("\\.") %>%
-            str_replace_all("ä", "a") %>%
-            str_replace_all("ö", "o") %>%
-            str_replace_all("ë", "e") %>%
-            str_replace_all("é", "e")
-        ) %>%
+    summarize(affiliations = str_flatten(c_across(ends_with("affiliation")), "; ") %>%
+                  str_remove_all("; (; )+") %>%
+                  str_remove("; +?$")) %>%
+    left_join(here("data/schedule.csv") %>%
+                  read_csv(
+                      col_types = "c",
+                      col_select = c("speaker_id", "full_name")
+                  ),
+              by = "full_name") %>%
     relocate(speaker_id, everything()) %>%
     write_csv(here("data/speakers.csv"))
 
