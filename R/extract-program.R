@@ -149,7 +149,7 @@ read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
     mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
     write_csv(here("data/program.csv"))
 
-# Create speakers ---------------------------------------------------------
+# Create talks ---------------------------------------------------------
 
 read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
     select(full_name, summary_research_interests, ends_with("affiliation")) %>%
@@ -165,7 +165,7 @@ read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
                   ),
               by = "full_name") %>%
     relocate(speaker_id, everything()) %>%
-    write_csv(here("data/speakers.csv"))
+    write_csv(here("data/talks.csv"))
 
 # Create poster presentation list -----------------------------------------
 

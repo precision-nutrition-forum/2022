@@ -19,7 +19,7 @@ program <- read_csv(here("data/program.csv"), na = "", guess_max = 0, col_types 
     mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
     mutate(end_time = if_else(end_time == "", "", str_c("-", end_time))) %>% 
     mutate(times = glue("{start_time}{end_time}"),
-           talk = if_else(full_name == "", title, as.character(glue("[*{title}*, {full_name}](speakers/{speaker_id}/index.md)"))),
+           talk = if_else(full_name == "", title, as.character(glue("[*{title}*, {full_name}](talks/{speaker_id}/index.md)"))),
            days = str_to_sentence(format(as_date(date), format = "%B %d"))) %>% 
     rename_with(str_to_sentence) 
 

@@ -1,7 +1,7 @@
 ---
-title: "Speaker presentations"
+title: "Talks"
 listing:
-  contents: speakers
+  contents: talks
   type: table
   sort: "author"
   table-hover: true

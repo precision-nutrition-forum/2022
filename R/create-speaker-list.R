@@ -7,7 +7,7 @@ library(whisker)
 library(fs)
 
 # To overwrite with later code.
-dir_ls(here("speakers")) %>%
+dir_ls(here("talks")) %>%
     file_delete()
 
 # Function to create files from a template --------------------------------
@@ -15,7 +15,7 @@ dir_ls(here("speakers")) %>%
 # Create a markdown file of each poster abstract
 create_collection_from_template <- function(data) {
     text <- whisker.render(
-        template = read_lines(here("R/template-speakers.md")),
+        template = read_lines(here("R/template-talks.md")),
         data = list(
             speaker_id = data$speaker_id,
             title = data$title,
@@ -26,7 +26,7 @@ create_collection_from_template <- function(data) {
         )
     )
 
-    collection_path <- here(glue("speakers/{data$speaker_id}/index.md"))
+    collection_path <- here(glue("talks/{data$speaker_id}/index.md"))
     dir_create(path_dir(collection_path))
     file_create(collection_path)
 
@@ -48,7 +48,7 @@ titles <- read_csv(here("data/program.csv"),
 video_links <- yaml::read_yaml(here("data/videos.yml")) %>%
         map_dfr(as_tibble)
 
-read_csv(here("data/speakers.csv"), col_types = "c") %>%
+read_csv(here("data/talks.csv"), col_types = "c") %>%
     full_join(titles, by = "speaker_id") %>%
     full_join(video_links, by = "speaker_id") %>%
     transpose() %>%
