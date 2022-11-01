@@ -40,7 +40,7 @@ create_collection_from_template <- function(data) {
 
 # Give speaker data to function to create the files -----------------------
 
-titles <- read_csv(here("data/schedule.csv"),
+titles <- read_csv(here("data/program.csv"),
                    col_select = c(title, speaker_id),
                    col_types = "c") %>%
     filter(!is.na(speaker_id))

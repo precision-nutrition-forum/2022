@@ -34,7 +34,7 @@ read_docx(here("data-raw/Scope.docx")) %>%
 
 file_delete(here("data-raw/Scope.docx"))
 
-# Extract and tidy schedule -----------------------------------------------
+# Extract and tidy program -----------------------------------------------
 
 # Need to do some minor manual cleaning, like deleting columns
 read_excel(here("data-raw/talks-titles-schedule.xlsx")) %>%
@@ -93,7 +93,7 @@ read_csv(here("data-raw/presentations.csv"), show_col_types = FALSE) %>%
     unique() %>%
     cat(sep = ", ")
 
-# Create schedule ---------------------------------------------------------
+# Create program ---------------------------------------------------------
 
 # To get the breaks and other times.
 nonspeaker_sessions <- read_docx(here("data-raw/program.docx")) %>%
@@ -147,7 +147,7 @@ read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
     select(speaker_id, session, date, start_time, end_time, full_name, title) %>%
     arrange(date, lubridate::hm(start_time)) %>%
     mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
-    write_csv(here("data/schedule.csv"))
+    write_csv(here("data/program.csv"))
 
 # Create speakers ---------------------------------------------------------
 
@@ -158,7 +158,7 @@ read_csv(here("data-raw/presentations.csv"), col_types = "c", guess_max = 0) %>%
     summarize(affiliations = str_flatten(c_across(ends_with("affiliation")), "; ") %>%
                   str_remove_all("; (; )+") %>%
                   str_remove("; +?$")) %>%
-    left_join(here("data/schedule.csv") %>%
+    left_join(here("data/program.csv") %>%
                   read_csv(
                       col_types = "c",
                       col_select = c("speaker_id", "full_name")
