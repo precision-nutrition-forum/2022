@@ -1,7 +1,7 @@
 ---
 title: "The 1st Gothenburg Precision Nutrition Forum"
 subtitle: "Using Multi-OMICs for Data-Driven Systems Epidemiology - Towards Precision Nutrition"
-image: /images/background-network.jpg
+image: images/background-network.jpg
 about:
     template: jolla
     image-width: 20em
