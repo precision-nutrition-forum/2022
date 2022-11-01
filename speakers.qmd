@@ -1,23 +1,12 @@
 ---
-title: "Invited speakers"
-execute:
-    freeze: true
+title: "Speaker presentations"
+listing:
+  contents: speakers
+  type: table
+  sort: "author"
+  table-hover: true
+  table-striped: true
+  fields: 
+    - "author"
+    - "title"
 ---
-
-```{r, echo=FALSE, warning=FALSE, message=FALSE, results='asis'}
-library(tidyverse)
-library(here)
-library(glue)
-
-glue_string <- c(
-    "## {full_name} {{#{speaker_id}}}",
-    "![](images/{speaker_id}.png){{style='float: left; padding: 20px; border-radius: 30px; width: 120px'}} {summary_research_interests}",
-    "Affiliations: *{affiliations}*",
-    "\n\n"
-)
-
-read_csv(here("data/speakers.csv"), col_types = "c") %>% 
-    arrange(full_name) %>% 
-    glue_data(str_flatten(glue_string, "\n\n")) %>% 
-    cat(sep = "\n\n")
-```
