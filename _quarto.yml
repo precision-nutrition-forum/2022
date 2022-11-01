@@ -6,7 +6,7 @@ project:
     - "*.md"
     - "*.qmd"
     - "*.Rmd"
-    - "!data-raw/abstract-index-template.md"
+    - "!R/*"
   post-render:
     - touch docs/.nojekyll
 
