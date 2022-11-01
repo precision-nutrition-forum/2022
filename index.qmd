@@ -1,7 +1,16 @@
 ---
 title: "The 1st Gothenburg Precision Nutrition Forum"
 subtitle: "Using Multi-OMICs for Data-Driven Systems Epidemiology - Towards Precision Nutrition"
+image: /images/background-network.jpg
+about:
+    template: jolla
+    image-width: 20em
+    image-shape: rounded
+    links:
+        - text: "Scope"
+          href: /about.qmd
+        - text: "Program"
+          href: /program.qmd
+        - text: "Talks"
+          href: /talks.qmd
 ---
-
-To register, go to this
-[website](https://www.chalmers.se/en/departments/bio/calendar/Pages/Precision-Nutrition-Forum-1.aspx).
