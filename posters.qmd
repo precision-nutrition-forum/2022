@@ -1,5 +1,5 @@
 ---
-title: "Poster presentations"
+title: "Posters"
 listing:
   contents: posters
   type: table
