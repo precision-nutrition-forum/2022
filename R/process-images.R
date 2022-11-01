@@ -9,12 +9,12 @@ library(magick)
 # not size if that would work well.
 
 # The actual pngs can be moved over though.
-dir_ls(here("images/raw"), glob = "*.png") %>%
-    file_copy(here("images"))
+dir_ls(here("images/speakers/raw"), glob = "*.png") %>%
+    file_copy(here("images/speakers"))
 
 # Convert jpg to png
-old_jpg_images <- dir_ls(here("images/raw"), glob = "*.jpg")
-new_png_images <- here("images", path_ext_set(path_file(jpg_images), "png"))
+old_jpg_images <- dir_ls(here("images/speakers/raw"), glob = "*.jpg")
+new_png_images <- here("images/speakers", path_ext_set(path_file(jpg_images), "png"))
 
 convert_to_png <- function(old_file, new_file) {
     old_file %>%

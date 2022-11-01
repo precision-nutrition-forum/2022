@@ -21,7 +21,7 @@ renamed_pics <- profile_pics %>%
 
 file_move(
     profile_pics,
-    path(here("images", "raw", renamed_pics))
+    path(here("images", "speakers", "raw", renamed_pics))
 )
 # Rename after moving them.
 
