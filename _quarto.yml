@@ -26,10 +26,10 @@ website:
               text: " "
         right:
             - about.qmd
-            - text: "Program"
+            - program.qmd
+            - text: "Presentations"
               menu:
-                - schedule.qmd
-                - speakers.qmd
+                - talks.qmd
                 - posters.qmd
     page-footer:
         center:
