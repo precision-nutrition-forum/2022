@@ -8,4 +8,4 @@ data-raw/*.docx
 data-raw/*.xlsx
 *.swp
 data-raw/PNF.zip
-_freeze
+_ignore
