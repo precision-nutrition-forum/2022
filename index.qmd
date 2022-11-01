@@ -8,9 +8,9 @@ about:
     image-shape: rounded
     links:
         - text: "Scope"
-          href: /about.qmd
+          href: about.qmd
         - text: "Program"
-          href: /program.qmd
+          href: program.qmd
         - text: "Talks"
-          href: /talks.qmd
+          href: talks.qmd
 ---
