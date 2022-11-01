@@ -1,0 +1,46 @@
+- speaker_id: frank-hu
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/uh1hyadpnqpbl28hagqrtv34xkvyf2va?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: paul-franks
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/24ed09chvbvdtngou2xwqvpoz0s3euhy?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: marju-orho-melander
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/nshc96ncamg1dmtyay4uax6q7rcj89dq?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: andrew-t-chan
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/ncbbqgiwmkkz71s0iteyc2xrtzzk7lnu?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: walter-willett
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/m85xstm8dybpgndcnaq5ncvwoz6zrinl?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: miguel-a-martinez-gonzalez
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/mx8lgy93sm68esmi6t8wd0mp7lm5egy9?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: shilpa-n-bhupathiraju
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/al3jr6keong9qpgh97uck8tzt1vi0lhh?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: rikard-landberg
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/i7mc8od15b62k297p5uxwwelrtw02fxp?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: matthias-b-schulze
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/al1dsi050tdtrwl5v7hz1z4wmfw03rsa?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: qi-sun
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/76rq96si7syg58lcjruu05dzc8hj4q91?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: karl-michaelsson
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/n75o34hzlpio1j93hgwz8g75vl4luz1s?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: marta-guasch-ferre
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/yhfdg91se1twtrervv0rwvq6vigr3pf9?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: clemens-wittenbecher
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/2usoj2wfoj4k38ku2tq70b2gywt5v4p9?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: clary-b-clish
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/dy1dkyslgrhi728hm2xxet04gv55mws2?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: jessica-lasky-su
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/olih30qbks1ppszr0jlrf6sb2d8080kg?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: carl-brunius
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/2zgiuxwmipecj5ahzole2jh5vnxng7g4?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: liming-liang
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/g6b04ozqvsp5hsb1mj18cciampbjyyaf?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: mats-jirstrand
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/s3jg02k6dvszj5ctiolx3b080zmogla2?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: fredrik-backhed # No, don't use, give explicit non-consent
+  video_embedded_html_link: ''
+- speaker_id: ann-sofie-sandberg
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/yps713rwzk16lt4c6u45u65jczmoehqm?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: majken-k-jensen
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/kpsv51qwbptj4bxa9izm9q6ntg2dspcp?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: jordi-merino
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/dtbcsu23jbha9y97llfal5ydjnknu6p6?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
+- speaker_id: goran-bergstrom
+  video_embedded_html_link: '<iframe src="https://app.box.com/embed/s/1ozssq7omgik4kq2jypdnzxsjak4gnkd?sortColumn=date&view=list" width="800" height="550" frameborder="0" allowfullscreen webkitallowfullscreen msallowfullscreen></iframe>'
