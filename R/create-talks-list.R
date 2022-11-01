@@ -6,6 +6,7 @@ library(yaml)
 library(whisker)
 library(fs)
 
+dir_create(here("talks"))
 # To overwrite with later code.
 dir_ls(here("talks")) %>%
     file_delete()
