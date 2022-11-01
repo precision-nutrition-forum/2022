@@ -8,9 +8,9 @@ about:
     image-shape: rounded
     links:
         - text: "Scope"
-          href: about.qmd
+          href: "https://precision-nutrition-forum.github.io/2022/about.html"
         - text: "Program"
-          href: program.qmd
+          href: "https://precision-nutrition-forum.github.io/2022/program.html"
         - text: "Talks"
-          href: talks.qmd
+          href: "https://precision-nutrition-forum.github.io/2022/talks.html"
 ---
