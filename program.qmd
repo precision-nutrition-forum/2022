@@ -15,21 +15,23 @@ knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
 
 ```{r program-prep}
 program <- read_csv(here("data/program.csv"), na = "", guess_max = 0, col_types = "c") %>%
-    select(speaker_id, date, session, start_time, end_time, full_name, title) %>% 
-    mutate(across(everything(), ~if_else(is.na(.), "", .))) %>%
-    mutate(end_time = if_else(end_time == "", "", str_c("-", end_time))) %>% 
-    mutate(times = glue("{start_time}{end_time}"),
-           talk = if_else(full_name == "", title, as.character(glue("[*{title}*, {full_name}](talks/{speaker_id}/index.md)"))),
-           days = str_to_sentence(format(as_date(date), format = "%B %d"))) %>% 
+    select(speaker_id, date, session, full_name, title) %>%
+    mutate(across(everything(), ~ if_else(is.na(.), "", .))) %>%
+    mutate(
+        talk = if_else(full_name == "", title, as.character(
+            glue("[*{title}*](/talks/{speaker_id}/index.md)")
+        )), 
+        days = str_to_sentence(format(as_date(date), format = "%B %d"))
+    ) %>%
     rename_with(str_to_sentence) 
 
 dates <- program %>% 
     pull(Days) %>% 
     unique()
-    
+
 create_table <- function(data) {
     data %>%
-        select(Session, Times, Talk) %>%
+        select(Session, Talk, Full_name) %>%
         gt(groupname_col = "Session") %>%
         tab_style(style = list(cell_text(weight = "bold")),
                   locations = cells_row_groups()) %>%
@@ -43,6 +45,7 @@ create_table <- function(data) {
 }
 ```
 
+::: panel-tabset
 ## `r dates[1]`
 
 ```{r}
@@ -58,3 +61,4 @@ program %>%
     filter(Days == dates[2]) %>% 
     create_table()
 ```
+:::
