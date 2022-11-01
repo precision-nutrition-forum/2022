@@ -1,5 +1,6 @@
 ---
-title: "The 1st Gothenburg Precision Nutrition Forum: Using Multi-OMICs for Data-Driven Systems Epidemiology - Towards Precision Nutrition"
+title: "The 1st Gothenburg Precision Nutrition Forum"
+subtitle: "Using Multi-OMICs for Data-Driven Systems Epidemiology - Towards Precision Nutrition"
 ---
 
 Metabolic diseases, including obesity, type 2 diabetes, cardiovascular
