@@ -112,199 +112,206 @@
     "text": "Metabolic Syndrome (MetS) is a progressive pathophysiological state defined by a cluster of cardiometabolic traits. However, little is known on metabolites that may be predictors of MetS incidence or reversion. Our objective was to identify plasma metabolites associated with MetS incidence or MetS reversion.\nMethods:\nThe study included 1,468 participants without cardiovascular disease but at high cardiovascular risk at enrollment from two case-cohort studies nested within the PREvención con DIeta MEDiterránea (PREDIMED) trial with baseline metabolomics data. MetS was defined in accordance with the updated harmonized International Diabetes Federation and the American Heart Association/National Heart, Lung, and Blood Institute criteria. MetS incidence was defined by not having MetS at baseline but meeting the MetS criteria at a follow-up visit. MetS reversion was defined by MetS at baseline but not meeting MetS criteria at a follow-up visit. Plasma metabolome was profiled by LC-MS. Multivariable-adjusted Cox regression models and elastic net regularized regressions were used to assess the association between 385 known metabolites and MetS incidence or reversion after adjusting for potential risk factors.\nResults:\nOf the 603 participants without baseline MetS, 298 developed MetS over the median 4.4-year follow-up. Of the 865 participants with baseline MetS, 285 experienced MetS reversion. A total of 103 and 88 individual metabolites were associated with MetS incidence and MetS reversion, respectively, after adjusting for confounders and false discovery rate correction. A metabolomic signature comprised of 77 metabolites was robustly associated with MetS incidence (HR per +1 SD: 1.56 (95%CI: 1.33-1.83)), and a metabolomic signature of 83 metabolites associated with MetS reversion (HR per +1 SD: 1.44 (95%CI: 1.25-1.67)), both p<0.001. C34:2 phosphatidylethanolamine plasmalogen, isoleucine, and C2 carnitine were the top positive metabolites (based on the beta-coefficients) from the MetS incidence signature, while C38:2 phosphatidylcholine, phenylacetylglutamine and ribothymidine the top negative metabolites. From the MetS reversion signature, C18:2 lipophosphatidylcholine, histidine, and C34:3 phosphatidylcholine plasmalogen were the top positive metabolites, and alanine, fructose-glucose-galactose, and C36:4 phosphatidylethanolamine plasmalogen the top negative metabolites. \nConclusion:\nWe identified unique metabolomic signatures, which included several plasma lipids and amino acids, associated with MetS incidence and reversion.\nKeywords:\nMetabolomics, Metabolic Syndrome\nPresentation format: Flash presentation & Poster"
   },
   {
+    "objectID": "talks/andrew-t-chan/index.html",
+    "href": "talks/andrew-t-chan/index.html",
+    "title": "Leveraging the gut microbiome for precision prevention of cancer",
+    "section": "",
+    "text": "Dr. Chan’s research focuses on chronic digestive diseases, including gastrointestinal cancer (colorectal, esophageal, pancreatic), inflammatory bowel disease, diverticulitis, and gastrointestinal bleeding. He utilizes molecular approaches encompassing genetic, metabolomic, proteomic, and biochemical platforms applied to populations ranging from large cohort studies to small biomarker-driven clinical trials. He also has a major effort in investigating the oral and gut microbiome as a determinant and mediator of chronic disease."
+  },
+  {
+    "objectID": "talks/ann-sofie-sandberg/index.html",
+    "href": "talks/ann-sofie-sandberg/index.html",
+    "title": "Early life exposures to dietary metabolites in relation to allergy development at 12 months of age",
+    "section": "",
+    "text": "Dr Sandberg has focused her research during the last 30 -40 years on bioavailability of minerals and inhibitors of absorption as well as bioactive compounds in seafood of importance in metabolic disease. In recent years she has become interested in early life nutrition and has together with national colleagues established a mother child birth cohort (NICE) in the North of Sweden. The cohort is designed to investigate the influence of lifestyle factors during pregnancy and early in life on immune maturation and allergy development in the children. Dr Sandberg studies the effect of diet and nutrients, validated with biomarkers, on immune maturation and allergy outcome in the children applying metabolomics and other omics techniques. Dr Sandberg is elected member of the Swedish Royal Academy of Engineering Sciences, honorary doctor in medicine at Sahlgrenska Academy, vice chair of the Royal Swedish Academy of Sciences National Committee of Nutrition and Food Science, holder of the Gustaf Dalén memorial medal. Currently, Dr Sandberg is leading a research group at Division of Food and Nutrition Science at Chalmers."
+  },
+  {
+    "objectID": "talks/carl-brunius/index.html",
+    "href": "talks/carl-brunius/index.html",
+    "title": "Exploring the Unknown - Metabolite identification and data quality in untargeted metabolomics",
+    "section": "",
+    "text": "Dr. Brunius investigates how diet associates to health outcomes via metabolic regulation, against a backdrop of multiple exposures, including microbiota, lifestyle and organic pollutants. He also develops approaches for precision nutrition, i.e., healthy food tailored for individual requirements. For this purpose, he aims at discovering metabotypes, i.e., groups of individuals with similar metabolic regulation in relation to diet, and to understand what determines such metabotypes. A major research interest lies in developing and applying molecular epidemiological approaches for linking multiple exposures to multiple health outcomes via molecular mediators. His research relies on machine learning and Omics data from both cohort and intervention studies."
+  },
+  {
+    "objectID": "talks/clary-b-clish/index.html",
+    "href": "talks/clary-b-clish/index.html",
+    "title": "Approaches to nontargeted metabolomics and identification of novel compounds associated with diet, disease, and the microbiome",
+    "section": "",
+    "text": "Our work focuses on the development and application of technologies for the systematic analysis of metabolites in biological specimens. The potential of metabolomics to detect and characterize early metabolic changes in subclinical disease has important implications for discovering pathophysiologic mechanisms and disease markers. We also use metabolomics to understand the molecular mechanisms through which diet, exercise, and the microbiome affect human health."
+  },
+  {
+    "objectID": "talks/clemens-wittenbecher/index.html",
+    "href": "talks/clemens-wittenbecher/index.html",
+    "title": "Deep lipidomics profiling generates superior surrogate markers for the long-term cardiometabolic health effect of improved dietary fat quality",
+    "section": "",
+    "text": "Dr. Wittenbecher’s research leverages molecular profiling data, especially metabolomics, to elucidate the link between dietary composition and cardiometabolic disease risk. Core methods include data-driven network analyses, risk prediction, machine learning, and causal modeling approaches in prospective cohorts and diet intervention trials. Dr. Wittenbecher’s research aims to strengthen the evidence for the causal role of diet composition in cardiometabolic disease etiology and develop biomarkers for precision nutrition approaches."
+  },
+  {
+    "objectID": "talks/frank-hu/index.html",
+    "href": "talks/frank-hu/index.html",
+    "title": "Promises and challenges of precision nutrition in disease prevention and management",
+    "section": "",
+    "text": "Dr. Hu’s research has focused on epidemiology and prevention of obesity and cardiometabolic diseases. His work has contributed substantially to current public health policies for global chronic disease prevention. In addition, his research has broken new ground in linking novel biomarkers (e.g., adipokines and metabolites) and gene-diet interactions to the risk of obesity and type 2 diabetes. Dr. Hu has been at the forefront of applying metabolomics techniques to nutritional epidemiologic studies and intervention trials. Currently, he serves as the PI of Dietary Biomarker Development Center at Harvard University"
+  },
+  {
+    "objectID": "talks/fredrik-backhed/index.html",
+    "href": "talks/fredrik-backhed/index.html",
+    "title": "The metabolic role and therapeutic potential of the microbiome in cardiometabolic disease",
+    "section": "",
+    "text": "Dr. Bäckhed combines clinical oriented research with gnotobiotic mouse models to address the role of the normal gut microbiota in metabolic diseases. He is appointed Professor at University of Copenhagen and has been guest Professor at University of Oslo (2013-15) and did a sabbatical at University of Hawaii (2019). Dr. Bäckhed was one of the world’s most cited researchers in 2020 in ‘Microbiology’ and ‘Molecular Biology and Genetics’ according to Clarivate Web of Science. Fredrik Bäckhed has received a large number of prestigious awards and appointments. Dr Bäckhed has been elected to the Young Academy of Sweden (2011-2015), The Royal Swedish Academy of Engineering Sciences (2015), The Royal Swedish Academy of Sciences (2018). He has also been appointed Torsten Söderberg Professor in Medicine and Wallenberg Scholar."
+  },
+  {
+    "objectID": "talks/goran-bergstrom/index.html",
+    "href": "talks/goran-bergstrom/index.html",
+    "title": "Longitudinal and cross-sectional molecular profiling of cardiac and metabolic disease in substudies of The Swedish CArdioPulmonary bioImage Study (SCAPIS)",
+    "section": "",
+    "text": "Dr. Bergström’s research aim to improve and personalize risk prediction of cardiovascular disease. He is head of the Physiology Group at Wallenberg Laboratory and senior consultant in clinical physiology at the Vascular Diagnostic Unit, Sahlgrenska University Hospital. He is chair of the Swedish CArdioPulmonary bioImage Study (SCAPIS), which aims to recruit and extensively phenotype 30,000 subjects aged 50-64 years at six Swedish university hospitals. The ultimate goal of SCAPIS is to reduce mortality and morbidity from cardiovascular disease, chronic obstructive pulmonary disease, and related metabolic disorders."
+  },
+  {
+    "objectID": "talks/jessica-lasky-su/index.html",
+    "href": "talks/jessica-lasky-su/index.html",
+    "title": "Considering exogenous metabolites to maximize understanding in epidemiological studies",
+    "section": "",
+    "text": "Dr. Lasky-Su is an Associate Professor in Medicine and Associate Statistician and Epidemiologist at Harvard Medical School and Brigham and Women’s Hospital. Over two decades, Dr. Lasky-Su has focused on the analysis of genetics, genomics, and metabolomics data in large scale human studies, with a primary research focus on lung disease pathophysiology. The accumulation of these efforts has resulted in a productive track record of over 200 original research articles. Via multiple PI-funded grants, Dr. Lasky-Su has particularly focused her research on \"integrative metabolomics,\" that integrates multiomic data while using a metabolomic-centric framework. Dr. Lasky-Su is also a leader in national and international metabolomic organizations for metabolomics, including the President of the Metabolomics Society-the largest International society for metabolomics, in the chairman of the NIH’s Consortium of METabolomic Studies (COMETS)-the largest international consortium of metabolomic epidemiological studies."
+  },
+  {
+    "objectID": "talks/jordi-merino/index.html",
+    "href": "talks/jordi-merino/index.html",
+    "title": "Diabetes prevention in the era of precision nutrition",
+    "section": "",
+    "text": "Dr. Merino’s research interests span nutrition, metabolism, and genomics, all aimed at understanding how molecular and environmental factors affect complex metabolic diseases to identify more effective, tailored, and sustainable strategies for preventing diabetes and related complications. A major research interest is genetic determinants of food intake, which provided insights into central nervous system processes regulating appetite and metabolic homeostasis. Dr. Merino has designed and implemented clinical trials to predict individual responses to specific dietary interventions."
+  },
+  {
+    "objectID": "talks/karl-michaelsson/index.html",
+    "href": "talks/karl-michaelsson/index.html",
+    "title": "Deep molecular phenotyping in cohorts - Elucidating the interplay between diet, metabolism, and disease risk",
+    "section": "",
+    "text": "Professor of medical epidemiology, Department of Surgical Sciences, Uppsala University; Director of the EpiHub at Uppsala University; Vice-dean for research infrastructures, and Director of Swedish Infrastructure for Medical Population-based Life-course and Environmental Research (SIMPLER)Dr. Michaëlsson has a broad interest in late-onset disease epidemiology with a primary focus on preventing fragility fractures. He is the principal investigator of SIMPLER, a Swedish national research infrastructure (https://simpler4health.se/). This national infrastructure, initiated in 1987, includes information about 110,000 men and women, a biobank with DNA, blood, urine, fat biopsy, and stool samples, and a growing component of OMICs data. Over the years, the participants have undergone repeated examinations, and the SIMPLER database has been regularly updated against national registries."
+  },
+  {
+    "objectID": "talks/liming-liang/index.html",
+    "href": "talks/liming-liang/index.html",
+    "title": "Genome-wide assessments of inflammatory markers and interpretable polygenic risk score for cardiometabolic disease",
+    "section": "",
+    "text": "Dr. Liming Liang is a statistical geneticist with expertise and intensive experience in a variety of large-scale high dimensional omics studies for complex diseases and traits, including genome-wide association studies (GWAS), disease mapping using gene expression, and DNA methylation, metabolomics analyses for complex disease etiology and prediction. His research is focused on developing and applying computational and statistical tools required for understanding the human genome, epigenome, transcriptome, and metabolome, with a particular focus on chronic diseases."
+  },
+  {
+    "objectID": "talks/majken-k-jensen/index.html",
+    "href": "talks/majken-k-jensen/index.html",
+    "title": "Proteomics approaches in biomarker discovery for chronic diseases of aging",
+    "section": "",
+    "text": "Dr. Jensen’s primary research fields include the identification of aging-related chronic diseases biomarkers (fatty liver disease, type 2 diabetes, cardiovascular, cognitive impairment, dementia); investigation of high-dimensional data (genome-wide association studies, proteomics, and other -omics) in observational epidemiology; and advancement of methodological approaches for the epidemiological investigation of biomarkers in chronic diseases. Her research team also works on combining national data registries with biomarkers and images from a tissue biobank estimate prognosis and reclassify (biopsy-proven) diseases."
+  },
+  {
+    "objectID": "talks/marju-orho-melander/index.html",
+    "href": "talks/marju-orho-melander/index.html",
+    "title": "The gut microbiome and plasma metabolome in cardiometabolic disease",
+    "section": "",
+    "text": "With main focus in cardiometabolic diseases, Dr Orho-Melander has successfully moved to new areas of research during her career starting with experimental endocrinology and moving to genetic epidemiology, nutrition epidemiology and gene-diet interaction studies, and today utilizing and combining this interdisciplinary prior knowledge in studies of the gut microbiome, diet and circulating biomarkers in large population-based cohorts. The longer-term purpose of the work of Orho-Melanders group is to provide novel intervention strategies aiming to more effective prevention strategies of cardiometabolic diseases."
+  },
+  {
+    "objectID": "talks/marta-guasch-ferre/index.html",
+    "href": "talks/marta-guasch-ferre/index.html",
+    "title": "Metabolic signatures of health-relevant foods and their association with cardiometabolic diseases",
+    "section": "",
+    "text": "Dr. Guasch-Ferré’s research focuses on investigating the role of dietary and lifestyle factors in chronic diseases, specifically cardiovascular disease and type 2 diabetes. She has incorporated high-throughput –omics techniques, metabolomics, and genetics, into traditional epidemiological analysis to gain insights into underlying mechanisms that could explain the associations of diet and lifestyle factors with cardiovascular disease and type 2 diabetes."
+  },
+  {
+    "objectID": "talks/mats-jirstrand/index.html",
+    "href": "talks/mats-jirstrand/index.html",
+    "title": "Metabotyping using dynamic OMICs data",
+    "section": "",
+    "text": "Dr. Jirstrand’s research covers learning dynamical systems, non-linear filtering, and time-series analysis (with applications in pharmacometrics, personalized nutrition, systems biology, and physiology). Furthermore, his group is active in artificial intelligence methods and applications such as deep neural networks, reinforcement learning; federated learning; and natural language processing. Recent work by his team is in mathematical modeling for personalized nutrition and includes algorithms for detecting groups of individuals who respond differently to the same diet (also known as metabotyping)."
+  },
+  {
+    "objectID": "talks/matthias-b-schulze/index.html",
+    "href": "talks/matthias-b-schulze/index.html",
+    "title": "Deep molecular phenotyping in the EPIC-Potsdam study provides insights into cardiometabolic disease etiology",
+    "section": "",
+    "text": "Dr. Schulze’s research focuses on dietary risk factors for type 2 diabetes, dietary pattern analysis, biomarkers of nutritional intake, gene-diet interaction, and biochemical and genetic predictors of diabetes and its complications. Further research interests include risk prediction models and healthy metabolic obesity. Dr. Schulze is the Principal Investigator of the EPIC-Potsdam study and a center Principal Investigator of the NAKO Health Study."
+  },
+  {
+    "objectID": "talks/miguel-a-martinez-gonzalez/index.html",
+    "href": "talks/miguel-a-martinez-gonzalez/index.html",
+    "title": "Understanding the health benefits of the Mediterranean diet interventions on cardiometabolic risk prevention through metabolomics profiling",
+    "section": "",
+    "text": "Dr. Martínez-González is a chronic disease epidemiologist with >30 years of experience studying chronic diseases’ nutritional, lifestyle, clinical, metabolomic, and genetic determinants. He has designed and directed large cohorts, such as the SUN (‘Seguimiento Universidad de Navarra’) cohort (1999-2022, with >23,000 participants), and nutritional intervention trials fro primary cardiovascular prevention, such as PREDIMED trial (2003-2013, with 7,447 participants) and PREDIMED-Plus trial (2013-2022, with 6,874 participants)."
+  },
+  {
+    "objectID": "talks/paul-franks/index.html",
+    "href": "talks/paul-franks/index.html",
+    "title": "Towards Precision Nutrition- Improving Individual and Population Health",
+    "section": "",
+    "text": "I am interested in i) the intersection of epidemiology and technology - next-generation epidemiology, ii) the deployment of this approach across diverse populations, and iii) the use of these data to develop precision medicine. I am also interested in addressing health disparities, especially those linked to ethnicity."
+  },
+  {
+    "objectID": "talks/qi-sun/index.html",
+    "href": "talks/qi-sun/index.html",
+    "title": "The interplay between habitual diet and human gut microbiome on cardiometabolic health",
+    "section": "",
+    "text": "Dr. Sun’s primary research interests are identifying and examining biomedical risk factors, including dietary biomarkers, for type 2 diabetes, obesity, and cardiovascular disease. His research is primarily based on large-scale cohort studies, including the Nurses’ Health Study I and II and the Health Professionals Follow-up Study. Dr. Sun is also interested in environmental pollutants, especially those from dietary sources, in the etiology of obesity and type 2 diabetes."
+  },
+  {
+    "objectID": "talks/rikard-landberg/index.html",
+    "href": "talks/rikard-landberg/index.html",
+    "title": "OMICs to understand the metabolic benefits of the Nordic diet and its key components",
+    "section": "",
+    "text": "Dr. Landberg studies the preventive role of plant-based foods using observational- and intervention studies integarating OMICs techniques. Metabolomics is a key technique in Dr. Landbergs’ research program and it is developed and applied for discovery and validation of exposure and prediction biomarkers, and for molecular phenotyping as the basis for tailored dietary strategies towards precision nutrition. Novel biomarkers from his lab are extensively used all over the world."
+  },
+  {
+    "objectID": "talks/shilpa-n-bhupathiraju/index.html",
+    "href": "talks/shilpa-n-bhupathiraju/index.html",
+    "title": "The imprint of ethnically diverse dietary patterns on the metabolome",
+    "section": "",
+    "text": "Dr. Bhupathiraju’s primary research interests include examining the role of diet and lifestyle in preventing cardiometabolic diseases, especially among high-risk groups such as Hispanics and South Asians. Her research integrates diet, metabolomics, and proteomics data in prospective cohort studies to understand mechanisms underlying diet-disease associations and to identify novel biomarkers of dietary intake."
+  },
+  {
+    "objectID": "talks/walter-willett/index.html",
+    "href": "talks/walter-willett/index.html",
+    "title": "Nutrition epidemiology provides evidence for improving human and planetary health through healthy dietary patterns",
+    "section": "",
+    "text": "Dr. Willett has focused much of his work over the last 40 years on the development and evaluation of methods, using both questionnaire and biochemical approaches, to study the effects of diet on the occurrence of major diseases. He has applied these methods starting in 1980 in the Nurses’ Health Studies I and II and the Health Professionals Follow-up Study. Together, these cohorts, which include nearly 300,000 men and women with repeated dietary assessments, provide the most detailed information on the long-term health consequences of food choices. Dr. Willett’s research has shaped the methods in nutrition epidemiology and public health nutrition policies over the last decades."
+  },
+  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "Hosted at Chalmers University of Technology, Gothenburg, Sweden\nChalmers scientific organization: Clemens Wittenbecher & Rikard Landberg\nExternal scientific organization committee members: Marta Guasch-Ferré, Jordi Merino\nHead of administrative organization: Mia Gartner"
+    "text": "Metabolic diseases, including obesity, type 2 diabetes, cardiovascular disease, and some cancers, pose a major burden on public health systems, accounting for most global chronic diseases and deaths. These conditions share complex underlying pathophysiology interacting with environmental, lifestyle, and dietary factors. It is widely recognized that poor diet quality contributes substantially to these conditions, but the mechanisms by which diet influences metabolic health are not well studied. Emerging tools and technologies, including metabolomics profiling, can help elucidate mechanisms underpinning the relationship between diet and metabolic disease. In addition, integrating metabolomics with other omics data is critical to understanding interindividual differences in the metabolic response to dietary interventions. Therefore, OMICs profiling in nutritional studies can elucidate the biological role of diet composition in chronic disease etiology and expand the evidence base of dietary guidelines in the general population. Moreover, a thorough understanding of the molecular links between diet and disease risk could pave the way for precision nutrition, where dietary advice and interventions are tailored to individuals based on their health status, lifestyle factors, social-cultural factors, and genetics and other molecular phenotypes.\nThe goal of the First Gothenburg Precision Nutrition Forum is to bring together interdisciplinary expertise in nutritional epidemiology, high-throughput omics technologies (genomics, metabolomics, metagenomics, and proteomics), and data science and present the latest concepts and advances in precision nutrition research. The Forum will gather world-leading multi-omics and precision nutrition experts from Europe and the US, with the goal of fostering international collaboration through the Swedish cohort infrastructures and the national Data-Driven Life Science initiative (DDLS)."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "The 1st Gothenburg Precision Nutrition Forum: Using Multi-OMICs for Data-Driven Systems Epidemiology - Towards Precision Nutrition",
-    "section": "",
-    "text": "The goal of the First Gothenburg Precision Nutrition Forum is to bring together interdisciplinary expertise in nutritional epidemiology, high-throughput omics technologies (genomics, metabolomics, metagenomics, and proteomics), and data science and present the latest concepts and advances in precision nutrition research. The Forum will gather world-leading multi-omics and precision nutrition experts from Europe and the US, with the goal of fostering international collaboration through the Swedish cohort infrastructures and the national Data-Driven Life Science initiative (DDLS).\nTo register, go to this website."
+    "objectID": "about.html#organizers",
+    "href": "about.html#organizers",
+    "title": "About",
+    "section": "Organizers",
+    "text": "Organizers\n\nHosted at Chalmers University of Technology, Gothenburg, Sweden\nChalmers scientific organization: Clemens Wittenbecher & Rikard Landberg\nExternal scientific organization committee members: Marta Guasch-Ferré, Jordi Merino\nHead of administrative organization: Mia Gartner"
+  },
+  {
+    "objectID": "about.html#funders",
+    "href": "about.html#funders",
+    "title": "About",
+    "section": "Funders",
+    "text": "Funders"
   },
   {
     "objectID": "posters.html",
     "href": "posters.html",
-    "title": "Poster presentations",
+    "title": "Posters",
     "section": "",
     "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nAuthor\n\n\nTitle\n\n\n\n\n\n\nAnne-Julie Tessier\n\n\nPlasma metabolite signature of healthy lifestyle factors in midlife in relation to all-cause mortality\n\n\n\n\nBianca Stutz\n\n\nHunger and glycaemic response to meals with a high glycaemic index consumed in the morning or evening among students with earlier and later chronotype- ChroNu Study\n\n\n\n\nBritt-Marie Iresjö\n\n\nNutrition before surgery-Effects on muscle transcriptome\n\n\n\n\nCecilia Martinez-Escobedo\n\n\nEffects of High and Low Glycemic Index Mediterranean-style Healthy Eating Patterns on the Plasma Metabolome\n\n\n\n\nHonghui Guo\n\n\nIntermittent fasting alleviates non-alcoholic steatohepatitis by regulating bile acid metabolism and promoting fecal bile acid excretion in high-fat and high-cholesterol diet fed mice\n\n\n\n\nJordi Merino\n\n\nGenetic predisposition to macronutrient preference and workplace food choices: A secondary analysis of the ChooseWell 365 trial\n\n\n\n\nKelly Jardon\n\n\nPrecision nutrition by modulating dietary macronutrients according to tissue-specific insulin resistance phenotypes improves cardiometabolic health\n\n\n\n\nMagdalena Sevilla-Gonzalez\n\n\nMetabolomic markers of glucose regulation after a lifestyle intervention in prediabetes\n\n\n\n\nMarilena Vitale\n\n\nMetabolites associated to cardiovascular risk in people with type 2 diabetes: data from the TOSCA.IT trial\n\n\n\n\nTessa Schillemans\n\n\nOmics linking dietary pollutants to cardiovascular disease\n\n\n\n\nTherese Hjorth\n\n\nEffect of a high vs low glycemic index Mediterranean Diet in adults at risk of type 2 diabetes: The MEDGICarb trial\n\n\n\n\nTynde Sandor\n\n\nProteomic metabolic health related to socioeconomic deprivation\n\n\n\n\nViktor Skantze\n\n\nIdentifying metabotypes from tensor data\n\n\n\n\nViviana Sandoval\n\n\nThe design of a crossover trial to study the effects of omega-3 fatty acids on Personal Post- Prandial TG response in healthy overweight subjects (Omega-3PT trial)\n\n\n\n\nZhila Semnani-Azad\n\n\nPlasma metabolite predictors of metabolic syndrome incidence and reversion\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "schedule.html#september-12",
-    "href": "schedule.html#september-12",
-    "title": "Schedule",
-    "section": "September, 12",
-    "text": "September, 12\n\n\n\n\n\n\n  \n  \n  \n    \n      Opening remarks\n    \n    13:30-13:45\n\nOpening remarks for conference by Rikard Landberg\n\n    \n      Towards Precision Nutrition - Improving Individual and Population Health\n    \n    13:45-14:15\n\nPromises and challenges of precision nutrition in disease prevention and management, Frank Hu\n\n    14:15-14:45\n\nTowards Precision Nutrition- Improving Individual and Population Health, Paul Franks\n\n    14:45-15:15\n\nThe gut microbiome and plasma metabolome in cardiometabolic disease, Marju Orho-Melander\n\n    15:15-15:45\n\nLeveraging the gut microbiome for precision prevention of cancer, Andrew T. Chan\n\n    \n      Break\n    \n    15:45-16:00\n\nCoffee and snack break.\n\n    \n      Healthy dietary patterns - Understanding underlying mechanisms through OMICs approaches\n    \n    16:00-16:30\n\nNutrition epidemiology provides evidence for improving human and planetary health through healthy dietary patterns, Walter Willett\n\n    16:30-17:00\n\nUnderstanding the health benefits of the Mediterranean diet interventions on cardiometabolic risk prevention through metabolomics profiling, Miguel A. Martinez-Gonzalez\n\n    17:00-17:30\n\nThe imprint of ethnically diverse dietary patterns on the metabolome, Shilpa N Bhupathiraju\n\n    17:30-18:00\n\nOMICs to understand the metabolic benefits of the Nordic diet and its key components, Rikard Landberg\n\n    \n      Posters and networking\n    \n    18:00-20:00\n\nPoster presentation flash talks, poster browsing, and networking."
-  },
-  {
-    "objectID": "schedule.html#september-13",
-    "href": "schedule.html#september-13",
-    "title": "Schedule",
-    "section": "September, 13",
-    "text": "September, 13\n\n\n\n\n\n\n  \n  \n  \n    \n      Deep molecular phenotyping in cohorts and trials - Elucidating the interplay between diet, metabolism, and disease risk\n    \n    8:30-8:55\n\nDeep molecular phenotyping in the EPIC-Potsdam study provides insights into cardiometabolic disease etiology, Matthias B Schulze\n\n    8:55-9:20\n\nThe interplay between habitual diet and human gut microbiome on cardiometabolic health, Qi Sun\n\n    9:20-9:45\n\nDeep molecular phenotyping in cohorts - Elucidating the interplay between diet, metabolism, and disease risk, Karl Michaëlsson\n\n    9:45-10:10\n\nMetabolic signatures of health-relevant foods and their association with cardiometabolic diseases, Marta Guasch-Ferré\n\n    10:10-10:35\n\nDeep lipidomics profiling generates superior surrogate markers for the long-term cardiometabolic health effect of improved dietary fat quality, Clemens Wittenbecher\n\n    \n      Break\n    \n    10:45-11:15\n\nCoffee and snack break.\n\n    \n      Metabolomics applications in nutrition and chronic disease epidemiology- Developing laboratory and statistical methods\n    \n    11:15-11:40\n\nApproaches to nontargeted metabolomics and identification of novel compounds associated with diet, disease, and the microbiome, Clary B. Clish\n\n    11:40-12:05\n\nConsidering exogenous metabolites to maximize understanding in epidemiological studies, Jessica Lasky-Su\n\n    12:05-12:30\n\nExploring the Unknown - Metabolite identification and data quality in untargeted metabolomics, Carl Brunius\n\n    12:30-12:55\n\nGenome-wide assessments of inflammatory markers and interpretable polygenic risk score for cardiometabolic disease, Liming Liang\n\n    12:55-13:20\n\nMetabotyping using dynamic OMICs data, Mats Jirstrand\n\n    \n      Lunch\n    \n    13:30-14:30\n\nLunch break.\n\n    \n      Towards Precision Prevention - Utilizing OMICs profiling for targeted disease prevention\n    \n    14:30-14:55\n\nThe metabolic role and therapeutic potential of the microbiome in cardiometabolic disease, Fredrik Bäckhed\n\n    14:55-15:20\n\nEarly life exposures to dietary metabolites in relation to allergy development at 12 months of age, Ann-Sofie Sandberg\n\n    15:20-15:45\n\nProteomics approaches in biomarker discovery for chronic diseases of aging, Majken K. Jensen\n\n    15:45-16:10\n\nDiabetes prevention in the era of precision nutrition, Jordi Merino\n\n    16:10-16:35\n\nLongitudinal and cross-sectional molecular profiling of cardiac and metabolic disease in substudies of The Swedish CArdioPulmonary bioImage Study (SCAPIS), Göran Bergström\n\n    \n      Closing remarks\n    \n    17:00-17:15\n\nClosing remarks by Rikard Landberg"
-  },
-  {
-    "objectID": "speakers.html",
-    "href": "speakers.html",
-    "title": "Invited speakers",
+    "objectID": "program.html",
+    "href": "program.html",
+    "title": "Program",
     "section": "",
-    "text": "Dr. Chan’s research focuses on chronic digestive diseases, including gastrointestinal cancer (colorectal, esophageal, pancreatic), inflammatory bowel disease, diverticulitis, and gastrointestinal bleeding. He utilizes molecular approaches encompassing genetic, metabolomic, proteomic, and biochemical platforms applied to populations ranging from large cohort studies to small biomarker-driven clinical trials. He also has a major effort in investigating the oral and gut microbiome as a determinant and mediator of chronic disease.\nAffiliations: Massachusetts General Hospital; Harvard Medical School; Harvard T. H. Chan School of Public Health"
+    "text": "September 12September 13\n\n\n\n\n\n\n\n\n  \n  \n  \n    \n      Towards Precision Nutrition - Improving Individual and Population Health\n    \n    Promises and challenges of precision nutrition in disease prevention and management\n\nFrank Hu\n\n    Towards Precision Nutrition- Improving Individual and Population Health\n\nPaul Franks\n\n    The gut microbiome and plasma metabolome in cardiometabolic disease\n\nMarju Orho-Melander\n\n    Leveraging the gut microbiome for precision prevention of cancer\n\nAndrew T. Chan\n\n    \n      Healthy dietary patterns - Understanding underlying mechanisms through OMICs approaches\n    \n    Nutrition epidemiology provides evidence for improving human and planetary health through healthy dietary patterns\n\nWalter Willett\n\n    Understanding the health benefits of the Mediterranean diet interventions on cardiometabolic risk prevention through metabolomics profiling\n\nMiguel A. Martinez-Gonzalez\n\n    The imprint of ethnically diverse dietary patterns on the metabolome\n\nShilpa N Bhupathiraju\n\n    OMICs to understand the metabolic benefits of the Nordic diet and its key components\n\nRikard Landberg\n\n  \n  \n  \n\n\n\n\n\n\n\n\n\n\n\n\n  \n  \n  \n    \n      Deep molecular phenotyping in cohorts and trials - Elucidating the interplay between diet, metabolism, and disease risk\n    \n    Deep molecular phenotyping in the EPIC-Potsdam study provides insights into cardiometabolic disease etiology\n\nMatthias B Schulze\n\n    The interplay between habitual diet and human gut microbiome on cardiometabolic health\n\nQi Sun\n\n    Deep molecular phenotyping in cohorts - Elucidating the interplay between diet, metabolism, and disease risk\n\nKarl Michaëlsson\n\n    Metabolic signatures of health-relevant foods and their association with cardiometabolic diseases\n\nMarta Guasch-Ferré\n\n    Deep lipidomics profiling generates superior surrogate markers for the long-term cardiometabolic health effect of improved dietary fat quality\n\nClemens Wittenbecher\n\n    \n      Metabolomics applications in nutrition and chronic disease epidemiology- Developing laboratory and statistical methods\n    \n    Approaches to nontargeted metabolomics and identification of novel compounds associated with diet, disease, and the microbiome\n\nClary B. Clish\n\n    Considering exogenous metabolites to maximize understanding in epidemiological studies\n\nJessica Lasky-Su\n\n    Exploring the Unknown - Metabolite identification and data quality in untargeted metabolomics\n\nCarl Brunius\n\n    Genome-wide assessments of inflammatory markers and interpretable polygenic risk score for cardiometabolic disease\n\nLiming Liang\n\n    Metabotyping using dynamic OMICs data\n\nMats Jirstrand\n\n    \n      Towards Precision Prevention - Utilizing OMICs profiling for targeted disease prevention\n    \n    The metabolic role and therapeutic potential of the microbiome in cardiometabolic disease\n\nFredrik Bäckhed\n\n    Early life exposures to dietary metabolites in relation to allergy development at 12 months of age\n\nAnn-Sofie Sandberg\n\n    Proteomics approaches in biomarker discovery for chronic diseases of aging\n\nMajken K. Jensen\n\n    Diabetes prevention in the era of precision nutrition\n\nJordi Merino\n\n    Longitudinal and cross-sectional molecular profiling of cardiac and metabolic disease in substudies of The Swedish CArdioPulmonary bioImage Study (SCAPIS)\n\nGöran Bergström"
   },
   {
-    "objectID": "speakers.html#ann-sofie-sandberg",
-    "href": "speakers.html#ann-sofie-sandberg",
-    "title": "Invited speakers",
-    "section": "Ann-Sofie Sandberg",
-    "text": "Ann-Sofie Sandberg\n Dr Sandberg has focused her research during the last 30 -40 years on bioavailability of minerals and inhibitors of absorption as well as bioactive compounds in seafood of importance in metabolic disease. In recent years she has become interested in early life nutrition and has together with national colleagues established a mother child birth cohort (NICE) in the North of Sweden. The cohort is designed to investigate the influence of lifestyle factors during pregnancy and early in life on immune maturation and allergy development in the children. Dr Sandberg studies the effect of diet and nutrients, validated with biomarkers, on immune maturation and allergy outcome in the children applying metabolomics and other omics techniques. Dr Sandberg is elected member of the Swedish Royal Academy of Engineering Sciences, honorary doctor in medicine at Sahlgrenska Academy, vice chair of the Royal Swedish Academy of Sciences National Committee of Nutrition and Food Science, holder of the Gustaf Dalén memorial medal. Currently, Dr Sandberg is leading a research group at Division of Food and Nutrition Science at Chalmers.\nAffiliations: Chalmers University of Technology"
-  },
-  {
-    "objectID": "speakers.html#carl-brunius",
-    "href": "speakers.html#carl-brunius",
-    "title": "Invited speakers",
-    "section": "Carl Brunius",
-    "text": "Carl Brunius\n Dr. Brunius investigates how diet associates to health outcomes via metabolic regulation, against a backdrop of multiple exposures, including microbiota, lifestyle and organic pollutants. He also develops approaches for precision nutrition, i.e., healthy food tailored for individual requirements. For this purpose, he aims at discovering metabotypes, i.e., groups of individuals with similar metabolic regulation in relation to diet, and to understand what determines such metabotypes. A major research interest lies in developing and applying molecular epidemiological approaches for linking multiple exposures to multiple health outcomes via molecular mediators. His research relies on machine learning and Omics data from both cohort and intervention studies.\nAffiliations: Chalmers University of Technology"
-  },
-  {
-    "objectID": "speakers.html#clary-b-clish",
-    "href": "speakers.html#clary-b-clish",
-    "title": "Invited speakers",
-    "section": "Clary B. Clish",
-    "text": "Clary B. Clish\n Our work focuses on the development and application of technologies for the systematic analysis of metabolites in biological specimens. The potential of metabolomics to detect and characterize early metabolic changes in subclinical disease has important implications for discovering pathophysiologic mechanisms and disease markers. We also use metabolomics to understand the molecular mechanisms through which diet, exercise, and the microbiome affect human health.\nAffiliations: Broad Institute of MIT and Harvard"
-  },
-  {
-    "objectID": "speakers.html#clemens-wittenbecher",
-    "href": "speakers.html#clemens-wittenbecher",
-    "title": "Invited speakers",
-    "section": "Clemens Wittenbecher",
-    "text": "Clemens Wittenbecher\n Dr. Wittenbecher’s research leverages molecular profiling data, especially metabolomics, to elucidate the link between dietary composition and cardiometabolic disease risk. Core methods include data-driven network analyses, risk prediction, machine learning, and causal modeling approaches in prospective cohorts and diet intervention trials. Dr. Wittenbecher’s research aims to strengthen the evidence for the causal role of diet composition in cardiometabolic disease etiology and develop biomarkers for precision nutrition approaches.\nAffiliations: Division of Food and Nutrition Sciences, SciLifeLab, Chalmers University of Technology"
-  },
-  {
-    "objectID": "speakers.html#frank-hu",
-    "href": "speakers.html#frank-hu",
-    "title": "Invited speakers",
-    "section": "Frank Hu",
-    "text": "Frank Hu\n Dr. Hu’s research has focused on epidemiology and prevention of obesity and cardiometabolic diseases. His work has contributed substantially to current public health policies for global chronic disease prevention. In addition, his research has broken new ground in linking novel biomarkers (e.g., adipokines and metabolites) and gene-diet interactions to the risk of obesity and type 2 diabetes. Dr. Hu has been at the forefront of applying metabolomics techniques to nutritional epidemiologic studies and intervention trials. Currently, he serves as the PI of Dietary Biomarker Development Center at Harvard University\nAffiliations: Harvard T. H. Chan School of Public Health; Brigham and Women’s Hospital and Harvard Medical School"
-  },
-  {
-    "objectID": "speakers.html#fredrik-backhed",
-    "href": "speakers.html#fredrik-backhed",
-    "title": "Invited speakers",
-    "section": "Fredrik Bäckhed",
-    "text": "Fredrik Bäckhed\n Dr. Bäckhed combines clinical oriented research with gnotobiotic mouse models to address the role of the normal gut microbiota in metabolic diseases. He is appointed Professor at University of Copenhagen and has been guest Professor at University of Oslo (2013-15) and did a sabbatical at University of Hawaii (2019). Dr. Bäckhed was one of the world’s most cited researchers in 2020 in ‘Microbiology’ and ‘Molecular Biology and Genetics’ according to Clarivate Web of Science. Fredrik Bäckhed has received a large number of prestigious awards and appointments. Dr Bäckhed has been elected to the Young Academy of Sweden (2011-2015), The Royal Swedish Academy of Engineering Sciences (2015), The Royal Swedish Academy of Sciences (2018). He has also been appointed Torsten Söderberg Professor in Medicine and Wallenberg Scholar.\nAffiliations: University of Gothenburg; University of Copenhagen"
-  },
-  {
-    "objectID": "speakers.html#goran-bergstrom",
-    "href": "speakers.html#goran-bergstrom",
-    "title": "Invited speakers",
-    "section": "Göran Bergström",
-    "text": "Göran Bergström\n Dr. Bergström’s research aim to improve and personalize risk prediction of cardiovascular disease. He is head of the Physiology Group at Wallenberg Laboratory and senior consultant in clinical physiology at the Vascular Diagnostic Unit, Sahlgrenska University Hospital. He is chair of the Swedish CArdioPulmonary bioImage Study (SCAPIS), which aims to recruit and extensively phenotype 30,000 subjects aged 50-64 years at six Swedish university hospitals. The ultimate goal of SCAPIS is to reduce mortality and morbidity from cardiovascular disease, chronic obstructive pulmonary disease, and related metabolic disorders.\nAffiliations: Department of Molecular and Clinical Medicine, Institute of Medicine, Sahlgrenska Academy, University of Gothenburg"
-  },
-  {
-    "objectID": "speakers.html#jessica-lasky-su",
-    "href": "speakers.html#jessica-lasky-su",
-    "title": "Invited speakers",
-    "section": "Jessica Lasky-Su",
-    "text": "Jessica Lasky-Su\n Dr. Lasky-Su is an Associate Professor in Medicine and Associate Statistician and Epidemiologist at Harvard Medical School and Brigham and Women’s Hospital. Over two decades, Dr. Lasky-Su has focused on the analysis of genetics, genomics, and metabolomics data in large scale human studies, with a primary research focus on lung disease pathophysiology. The accumulation of these efforts has resulted in a productive track record of over 200 original research articles. Via multiple PI-funded grants, Dr. Lasky-Su has particularly focused her research on “integrative metabolomics,” that integrates multiomic data while using a metabolomic-centric framework. Dr. Lasky-Su is also a leader in national and international metabolomic organizations for metabolomics, including the President of the Metabolomics Society-the largest International society for metabolomics, in the chairman of the NIH’s Consortium of METabolomic Studies (COMETS)-the largest international consortium of metabolomic epidemiological studies.\nAffiliations: Brigham and Women’s Hospital; Harvard Medical School"
-  },
-  {
-    "objectID": "speakers.html#jordi-merino",
-    "href": "speakers.html#jordi-merino",
-    "title": "Invited speakers",
-    "section": "Jordi Merino",
-    "text": "Jordi Merino\n Dr. Merino’s research interests span nutrition, metabolism, and genomics, all aimed at understanding how molecular and environmental factors affect complex metabolic diseases to identify more effective, tailored, and sustainable strategies for preventing diabetes and related complications. A major research interest is genetic determinants of food intake, which provided insights into central nervous system processes regulating appetite and metabolic homeostasis. Dr. Merino has designed and implemented clinical trials to predict individual responses to specific dietary interventions.\nAffiliations: Massachusetts General Hospital"
-  },
-  {
-    "objectID": "speakers.html#karl-michaelsson",
-    "href": "speakers.html#karl-michaelsson",
-    "title": "Invited speakers",
-    "section": "Karl Michaëlsson",
-    "text": "Karl Michaëlsson\n Professor of medical epidemiology, Department of Surgical Sciences, Uppsala University; Director of the EpiHub at Uppsala University; Vice-dean for research infrastructures, and Director of Swedish Infrastructure for Medical Population-based Life-course and Environmental Research (SIMPLER)Dr. Michaëlsson has a broad interest in late-onset disease epidemiology with a primary focus on preventing fragility fractures. He is the principal investigator of SIMPLER, a Swedish national research infrastructure (https://simpler4health.se/). This national infrastructure, initiated in 1987, includes information about 110,000 men and women, a biobank with DNA, blood, urine, fat biopsy, and stool samples, and a growing component of OMICs data. Over the years, the participants have undergone repeated examinations, and the SIMPLER database has been regularly updated against national registries.\nAffiliations: Department of Surgical Sciences, Unit of Medical Epidemiology, Uppsala University"
-  },
-  {
-    "objectID": "speakers.html#liming-liang",
-    "href": "speakers.html#liming-liang",
-    "title": "Invited speakers",
-    "section": "Liming Liang",
-    "text": "Liming Liang\n Dr. Liming Liang is a statistical geneticist with expertise and intensive experience in a variety of large-scale high dimensional omics studies for complex diseases and traits, including genome-wide association studies (GWAS), disease mapping using gene expression, and DNA methylation, metabolomics analyses for complex disease etiology and prediction. His research is focused on developing and applying computational and statistical tools required for understanding the human genome, epigenome, transcriptome, and metabolome, with a particular focus on chronic diseases.\nAffiliations: Harvard T. H. Chan School of Public Health"
-  },
-  {
-    "objectID": "speakers.html#majken-k-jensen",
-    "href": "speakers.html#majken-k-jensen",
-    "title": "Invited speakers",
-    "section": "Majken K. Jensen",
-    "text": "Majken K. Jensen\n Dr. Jensen’s primary research fields include the identification of aging-related chronic diseases biomarkers (fatty liver disease, type 2 diabetes, cardiovascular, cognitive impairment, dementia); investigation of high-dimensional data (genome-wide association studies, proteomics, and other -omics) in observational epidemiology; and advancement of methodological approaches for the epidemiological investigation of biomarkers in chronic diseases. Her research team also works on combining national data registries with biomarkers and images from a tissue biobank estimate prognosis and reclassify (biopsy-proven) diseases.\nAffiliations: University of Copenhagen"
-  },
-  {
-    "objectID": "speakers.html#marju-orho-melander",
-    "href": "speakers.html#marju-orho-melander",
-    "title": "Invited speakers",
-    "section": "Marju Orho-Melander",
-    "text": "Marju Orho-Melander\n With main focus in cardiometabolic diseases, Dr Orho-Melander has successfully moved to new areas of research during her career starting with experimental endocrinology and moving to genetic epidemiology, nutrition epidemiology and gene-diet interaction studies, and today utilizing and combining this interdisciplinary prior knowledge in studies of the gut microbiome, diet and circulating biomarkers in large population-based cohorts. The longer-term purpose of the work of Orho-Melanders group is to provide novel intervention strategies aiming to more effective prevention strategies of cardiometabolic diseases.\nAffiliations: Lund University"
-  },
-  {
-    "objectID": "speakers.html#marta-guasch-ferre",
-    "href": "speakers.html#marta-guasch-ferre",
-    "title": "Invited speakers",
-    "section": "Marta Guasch-Ferré",
-    "text": "Marta Guasch-Ferré\n Dr. Guasch-Ferré’s research focuses on investigating the role of dietary and lifestyle factors in chronic diseases, specifically cardiovascular disease and type 2 diabetes. She has incorporated high-throughput –omics techniques, metabolomics, and genetics, into traditional epidemiological analysis to gain insights into underlying mechanisms that could explain the associations of diet and lifestyle factors with cardiovascular disease and type 2 diabetes.\nAffiliations: Harvard T. H. Chan School of Public Health; Channing Division of Internal Medicine, Harvard Medical School"
-  },
-  {
-    "objectID": "speakers.html#mats-jirstrand",
-    "href": "speakers.html#mats-jirstrand",
-    "title": "Invited speakers",
-    "section": "Mats Jirstrand",
-    "text": "Mats Jirstrand\n Dr. Jirstrand’s research covers learning dynamical systems, non-linear filtering, and time-series analysis (with applications in pharmacometrics, personalized nutrition, systems biology, and physiology). Furthermore, his group is active in artificial intelligence methods and applications such as deep neural networks, reinforcement learning; federated learning; and natural language processing. Recent work by his team is in mathematical modeling for personalized nutrition and includes algorithms for detecting groups of individuals who respond differently to the same diet (also known as metabotyping).\nAffiliations: Fraunhofer-Chalmers Centre"
-  },
-  {
-    "objectID": "speakers.html#matthias-b-schulze",
-    "href": "speakers.html#matthias-b-schulze",
-    "title": "Invited speakers",
-    "section": "Matthias B Schulze",
-    "text": "Matthias B Schulze\n Dr. Schulze’s research focuses on dietary risk factors for type 2 diabetes, dietary pattern analysis, biomarkers of nutritional intake, gene-diet interaction, and biochemical and genetic predictors of diabetes and its complications. Further research interests include risk prediction models and healthy metabolic obesity. Dr. Schulze is the Principal Investigator of the EPIC-Potsdam study and a center Principal Investigator of the NAKO Health Study.\nAffiliations: German Institute of Human Nutrition"
-  },
-  {
-    "objectID": "speakers.html#miguel-a-martinez-gonzalez",
-    "href": "speakers.html#miguel-a-martinez-gonzalez",
-    "title": "Invited speakers",
-    "section": "Miguel A. Martinez-Gonzalez",
-    "text": "Miguel A. Martinez-Gonzalez\n Dr. Martínez-González is a chronic disease epidemiologist with >30 years of experience studying chronic diseases’ nutritional, lifestyle, clinical, metabolomic, and genetic determinants. He has designed and directed large cohorts, such as the SUN (‘Seguimiento Universidad de Navarra’) cohort (1999-2022, with >23,000 participants), and nutritional intervention trials fro primary cardiovascular prevention, such as PREDIMED trial (2003-2013, with 7,447 participants) and PREDIMED-Plus trial (2013-2022, with 6,874 participants).\nAffiliations: University of Navarra; Harvard T. H. Chan School of Public Health; CIBEROBN"
-  },
-  {
-    "objectID": "speakers.html#paul-franks",
-    "href": "speakers.html#paul-franks",
-    "title": "Invited speakers",
-    "section": "Paul Franks",
-    "text": "Paul Franks\n I am interested in i) the intersection of epidemiology and technology - next-generation epidemiology, ii) the deployment of this approach across diverse populations, and iii) the use of these data to develop precision medicine. I am also interested in addressing health disparities, especially those linked to ethnicity.\nAffiliations: Novo Nordisk Foundation; Lund University Diabetes Center; Harvard T. H. Chan School of Public Health"
-  },
-  {
-    "objectID": "speakers.html#qi-sun",
-    "href": "speakers.html#qi-sun",
-    "title": "Invited speakers",
-    "section": "Qi Sun",
-    "text": "Qi Sun\n Dr. Sun’s primary research interests are identifying and examining biomedical risk factors, including dietary biomarkers, for type 2 diabetes, obesity, and cardiovascular disease. His research is primarily based on large-scale cohort studies, including the Nurses’ Health Study I and II and the Health Professionals Follow-up Study. Dr. Sun is also interested in environmental pollutants, especially those from dietary sources, in the etiology of obesity and type 2 diabetes.\nAffiliations: Harvard T. H. Chan School of Public Health; Brigham and Women’s Hospital; Harvard Medical School"
-  },
-  {
-    "objectID": "speakers.html#rikard-landberg",
-    "href": "speakers.html#rikard-landberg",
-    "title": "Invited speakers",
-    "section": "Rikard Landberg",
-    "text": "Rikard Landberg\n Dr. Landberg studies the preventive role of plant-based foods using observational- and intervention studies integarating OMICs techniques. Metabolomics is a key technique in Dr. Landbergs’ research program and it is developed and applied for discovery and validation of exposure and prediction biomarkers, and for molecular phenotyping as the basis for tailored dietary strategies towards precision nutrition. Novel biomarkers from his lab are extensively used all over the world.\nAffiliations: Chalmers University of Technology"
-  },
-  {
-    "objectID": "speakers.html#shilpa-n-bhupathiraju",
-    "href": "speakers.html#shilpa-n-bhupathiraju",
-    "title": "Invited speakers",
-    "section": "Shilpa N Bhupathiraju",
-    "text": "Shilpa N Bhupathiraju\n Dr. Bhupathiraju’s primary research interests include examining the role of diet and lifestyle in preventing cardiometabolic diseases, especially among high-risk groups such as Hispanics and South Asians. Her research integrates diet, metabolomics, and proteomics data in prospective cohort studies to understand mechanisms underlying diet-disease associations and to identify novel biomarkers of dietary intake.\nAffiliations: Harvard"
-  },
-  {
-    "objectID": "speakers.html#walter-willett",
-    "href": "speakers.html#walter-willett",
-    "title": "Invited speakers",
-    "section": "Walter Willett",
-    "text": "Walter Willett\n Dr. Willett has focused much of his work over the last 40 years on the development and evaluation of methods, using both questionnaire and biochemical approaches, to study the effects of diet on the occurrence of major diseases. He has applied these methods starting in 1980 in the Nurses’ Health Studies I and II and the Health Professionals Follow-up Study. Together, these cohorts, which include nearly 300,000 men and women with repeated dietary assessments, provide the most detailed information on the long-term health consequences of food choices. Dr. Willett’s research has shaped the methods in nutrition epidemiology and public health nutrition policies over the last decades.\nAffiliations: Harvard T. H. Chan School of Public Health"
+    "objectID": "talks.html",
+    "href": "talks.html",
+    "title": "Talks",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nAuthor\n\n\nTitle\n\n\n\n\n\n\nAndrew T. Chan\n\n\nLeveraging the gut microbiome for precision prevention of cancer\n\n\n\n\nAnn-Sofie Sandberg\n\n\nEarly life exposures to dietary metabolites in relation to allergy development at 12 months of age\n\n\n\n\nCarl Brunius\n\n\nExploring the Unknown - Metabolite identification and data quality in untargeted metabolomics\n\n\n\n\nClary B. Clish\n\n\nApproaches to nontargeted metabolomics and identification of novel compounds associated with diet, disease, and the microbiome\n\n\n\n\nClemens Wittenbecher\n\n\nDeep lipidomics profiling generates superior surrogate markers for the long-term cardiometabolic health effect of improved dietary fat quality\n\n\n\n\nFrank Hu\n\n\nPromises and challenges of precision nutrition in disease prevention and management\n\n\n\n\nFredrik Bäckhed\n\n\nThe metabolic role and therapeutic potential of the microbiome in cardiometabolic disease\n\n\n\n\nGöran Bergström\n\n\nLongitudinal and cross-sectional molecular profiling of cardiac and metabolic disease in substudies of The Swedish CArdioPulmonary bioImage Study (SCAPIS)\n\n\n\n\nJessica Lasky-Su\n\n\nConsidering exogenous metabolites to maximize understanding in epidemiological studies\n\n\n\n\nJordi Merino\n\n\nDiabetes prevention in the era of precision nutrition\n\n\n\n\nKarl Michaëlsson\n\n\nDeep molecular phenotyping in cohorts - Elucidating the interplay between diet, metabolism, and disease risk\n\n\n\n\n\nLiming Liang\n\n\nGenome-wide assessments of inflammatory markers and interpretable polygenic risk score for cardiometabolic disease\n\n\n\n\nMajken K. Jensen\n\n\nProteomics approaches in biomarker discovery for chronic diseases of aging\n\n\n\n\nMarju Orho-Melander\n\n\nThe gut microbiome and plasma metabolome in cardiometabolic disease\n\n\n\n\nMarta Guasch-Ferré\n\n\nMetabolic signatures of health-relevant foods and their association with cardiometabolic diseases\n\n\n\n\nMats Jirstrand\n\n\nMetabotyping using dynamic OMICs data\n\n\n\n\nMatthias B Schulze\n\n\nDeep molecular phenotyping in the EPIC-Potsdam study provides insights into cardiometabolic disease etiology\n\n\n\n\nMiguel A. Martinez-Gonzalez\n\n\nUnderstanding the health benefits of the Mediterranean diet interventions on cardiometabolic risk prevention through metabolomics profiling\n\n\n\n\nPaul Franks\n\n\nTowards Precision Nutrition- Improving Individual and Population Health\n\n\n\n\nQi Sun\n\n\nThe interplay between habitual diet and human gut microbiome on cardiometabolic health\n\n\n\n\nRikard Landberg\n\n\nOMICs to understand the metabolic benefits of the Nordic diet and its key components\n\n\n\n\nShilpa N Bhupathiraju\n\n\nThe imprint of ethnically diverse dietary patterns on the metabolome\n\n\n\n\nWalter Willett\n\n\nNutrition epidemiology provides evidence for improving human and planetary health through healthy dietary patterns\n\n\n\n\n\n\nNo matching items"
   }
 ]

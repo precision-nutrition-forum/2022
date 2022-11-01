@@ -18,5 +18,33 @@
       "/posters/viviana-sandoval/index.html",
       "/posters/zhila-semnani-azad/index.html"
     ]
+  },
+  {
+    "listing": "/talks.html",
+    "items": [
+      "/talks/andrew-t-chan/index.html",
+      "/talks/ann-sofie-sandberg/index.html",
+      "/talks/carl-brunius/index.html",
+      "/talks/clary-b-clish/index.html",
+      "/talks/clemens-wittenbecher/index.html",
+      "/talks/frank-hu/index.html",
+      "/talks/fredrik-backhed/index.html",
+      "/talks/goran-bergstrom/index.html",
+      "/talks/jessica-lasky-su/index.html",
+      "/talks/jordi-merino/index.html",
+      "/talks/karl-michaelsson/index.html",
+      "/talks/liming-liang/index.html",
+      "/talks/majken-k-jensen/index.html",
+      "/talks/marju-orho-melander/index.html",
+      "/talks/marta-guasch-ferre/index.html",
+      "/talks/mats-jirstrand/index.html",
+      "/talks/matthias-b-schulze/index.html",
+      "/talks/miguel-a-martinez-gonzalez/index.html",
+      "/talks/paul-franks/index.html",
+      "/talks/qi-sun/index.html",
+      "/talks/rikard-landberg/index.html",
+      "/talks/shilpa-n-bhupathiraju/index.html",
+      "/talks/walter-willett/index.html"
+    ]
   }
 ]
