@@ -13,7 +13,7 @@ dir_ls(here("posters")) %>%
 # Create a markdown file of each poster abstract
 create_collection_from_template <- function(data) {
     text <- whisker.render(
-        template = read_lines(here("data-raw/abstract-index-template.md")),
+        template = read_lines(here("R/template-abstracts.md")),
         data = list(
             title = data$title,
             full_name = data$full_name,
